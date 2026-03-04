@@ -431,7 +431,7 @@ Not possible due to restrictions associated with the academy account.
 - Also exclude `Id` column (a dimension should have ONE business key)  
 
 ### Preview, Save & Deploy, and Persist Data
-- Follow step 5.1.3  
+- [#Follow steps](#preview,-save,-deploy-&-persist-data)
 
 ## Update Analytic Model
 - Open `Sales Order Analytic Model` and redeploy  
