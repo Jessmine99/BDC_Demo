@@ -15,7 +15,7 @@ Select Repository Explorer in the side navigation area. You should see:
 1 local table of type Relational Dataset
 
 ## Data acquisition
-Open Data Builder on your space. Navigate to Data Builder and select your space. 
+Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 ### Create Sales Order local Table
 1️⃣ In Data Builder, create a new table. Enter Business Name / Technical Name as `Sales Order`.
