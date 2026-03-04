@@ -435,27 +435,26 @@ Not possible due to restrictions associated with the academy account.
 
 ## Update Analytic Model
 - Open `Sales Order Analytic Model` and redeploy  
-- Click on `sold_to_customer` node and from the properties panel include columns: `qualityscore`, `accounttype`, `industry`, `inactive` by ticking the box  
+- Click on `sold_to_customer` node and from the properties panel **include** columns: `qualityscore`, `accounttype`, `industry`, `inactive` by ticking the box  
 - Save and deploy model  
 
 ## Enhance SAC Story
-- Log in to SAC  
-- Top right, click on icon next to your username and select `SAP Analytics Cloud`  
-- Open your story in edit mode  
-- Toolbar --> View --> left side panel --> `Outline` --> Add second page  
-- Go to page 2 and click on `Assets`  
+- Log in to SAC   
+- Open your story in `edit mode`  
+- Toolbar --> `View` --> `left side panel` --> `Outline` --> `Add second page`  
+- Go to `page 2` and click on `Assets`  
 
 ### Column Chart: Revenue by Account Type & Industry
-- From widgets, drag `Chart` in the storyboard page 2  
+- From `widgets`, drag `Chart` in the storyboard page 2  
 - Choose data source and the analytic model you created  
-- From Builder panel --> Chart orientation: `Vertical`  
+- From `Builder panel` --> Chart orientation: `Vertical`  
 - Measures: `ORDER_AMOUNT_EURO`  
 - Dimensions: `Industry`  
 - Color: `accounttype`  
 - Double click on the chart title and change it to: `Revenue per account type & industry`  
 
 ### Heatmap: High Value Products per Account Type & QualityScore
-- From widgets, drag `Chart` in the storyboard  
+- From `widgets`, drag `Chart` in the storyboard  
 - Choose data source and the analytic model you created  
 - From Builder panel --> Selected chart: `Heatmap`  
 - Color: `High value products`  
@@ -463,7 +462,7 @@ Not possible due to restrictions associated with the academy account.
 - Change title to: `Number of high value products per accounttype, qualityscore`  
 
 #### Interpretation
-- **Color intensity → Magnitude**  
+- Color intensity → Magnitude  
   - Darker / Blue = higher value  
   - Lighter / Pink = lower value  
 
