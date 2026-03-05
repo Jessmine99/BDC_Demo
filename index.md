@@ -1,11 +1,7 @@
 ---
 title: BDC Demo
-nav_order: 1
----
-
----
-title: BDC Demo
 layout: default
+nav_order: 1
 ---
 
 # BDC_Demo.github.io
