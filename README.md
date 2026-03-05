@@ -48,7 +48,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 2️⃣ Add required columns and define data types.
 
-3️⃣  Mark `MATERIAL_ID` as the **Key Attribute**.
+3️⃣ Mark `MATERIAL_ID` as the **Key Attribute**.
 
 4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table
 
