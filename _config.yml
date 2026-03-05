@@ -11,5 +11,4 @@ plugins:
 
 # Show an "On this page" table of contents
 toc_enabled: true
-toc_min_heading_level: 2
-toc_max_heading_level: 3
+toc_heading_levels: [2, 3]
