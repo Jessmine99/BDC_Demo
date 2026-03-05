@@ -1,7 +1,10 @@
 title: BDC_Demo
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url:  https://jessmine99.github.io/BDC_Demo.github.io/
 
 search_enabled: true
 heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme
