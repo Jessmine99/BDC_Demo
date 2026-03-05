@@ -1,3 +1,9 @@
+---
+title: SAP Databricks
+layout: default
+nav_order: 7
+---
+
 # SAP Databricks
 
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
