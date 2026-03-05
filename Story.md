@@ -1,3 +1,9 @@
+---
+title: Story
+layout: default
+nav_order: 6
+---
+
 # Story
 
 Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next to your username icon choose `SAP Analytics Cloud`
