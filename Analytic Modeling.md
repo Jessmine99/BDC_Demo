@@ -1,3 +1,9 @@
+---
+title: Analytic Modeling
+layout: default
+nav_order: 4
+---
+
 # Analytic Modeling
 
 ### Create Sales Order Analytic Model
