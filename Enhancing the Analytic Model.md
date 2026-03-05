@@ -1,3 +1,9 @@
+---
+title: Integrating Salesforce Data into the Analytic Model
+layout: default
+nav_order: 8
+---
+
 # Integrating Salesforce Data into the Analytic Model
 
 ## Data Acquisition/Ingestion
