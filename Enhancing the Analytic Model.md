@@ -8,6 +8,7 @@ nav_order: 7
 
 ## Data Acquisition/Ingestion
 
+{: .warning }
 *Originally, we would have consumed the data product after publishing it, which would have created the remote table automatically in Datasphere. Since consumption is not possible, we manually create a table in Datasphere to replicate the same structure and workflow*
 
 ### Create SFDC Table
