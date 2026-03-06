@@ -10,8 +10,8 @@ nav_order: 2
 Use credentials that are already given to you
 
 ## Explore your own space
-<mark> ### Create time dimensions & tables
-Navigate to space managemenent. Select the edit button on your assigned space, where your username is displayed. Scroll down in the time section where you can generate time data for your space. Click edit on time data. When you update the year range, this will generate time tables with data and dimension views.</mark>
+### Create time dimensions & tables
+<mark>Navigate to space managemenent. Select the edit button on your assigned space, where your username is displayed. Scroll down in the time section where you can generate time data for your space. Click edit on time data. When you update the year range, this will generate time tables with data and dimension views.</mark>
 
 ### Preview time dimensions & tables
 Select Repository Explorer in the side navigation area. You should see:
