@@ -6,6 +6,7 @@ baseurl:  /BDC_Demo
 
 search_enabled: true
 heading_anchors: true
+nav_enabled: true
 
 plugins:
   - jekyll-remote-theme
@@ -13,3 +14,8 @@ plugins:
 # Show an "On this page" table of contents
 toc_enabled: true
 toc_heading_levels: [2, 3]
+
+callouts:
+  warning:
+    title: Warning
+    color: red
