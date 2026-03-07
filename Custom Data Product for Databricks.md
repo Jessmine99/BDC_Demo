@@ -8,7 +8,7 @@ nav_order: 3
   <a href="{{ site.baseurl }}/images/custom_data_product_1.png">
     <img
       src="{{ site.baseurl }}/images/custom_data_product_1.png"
-      alt="Architecture overview"
+      alt="Data Product 1"
       style="width: 180px !important; max-width: 180px !important; height: auto !important;"
     >
   </a>
@@ -18,7 +18,7 @@ nav_order: 3
   <a href="{{ site.baseurl }}/images/custom_data_product_2.png">
     <img
       src="{{ site.baseurl }}/images/custom_data_product_2.png"
-      alt="Architecture overview"
+      alt="Data Product 2"
       style="width: 400px !important; max-width: 180px !important; height: auto !important;"
     >
   </a>
