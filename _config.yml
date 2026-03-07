@@ -16,11 +16,17 @@ toc_enabled: true
 toc_heading_levels: [2, 3]
 
 callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
   warning:
     title: Warning
     color: red
-
-callouts:
-  note:
-    title: Note
-    color: blue
