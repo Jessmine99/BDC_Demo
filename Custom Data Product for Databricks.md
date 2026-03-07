@@ -19,7 +19,7 @@ nav_order: 3
     <img
       src="{{ site.baseurl }}/images/custom_data_product_2.png"
       alt="Data Product 2"
-      style="width: 400px !important; max-width: 180px !important; height: auto !important;"
+      style="width: 400px !important; max-width: 400px !important; height: auto !important;"
     >
   </a>
 </p>
