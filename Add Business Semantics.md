@@ -60,7 +60,6 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 - Click Deploy to activate the table  
 - Upload `EU_Accounts.csv` file. [#Follow data ingestion steps](#import-csv-files-into-the-local-tables)
 
-## Data Modeling
 ### Create SFDC View
 - Follow steps [#Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
