@@ -4,6 +4,11 @@ layout: default
 nav_order: 3
 ---
 
+{ .Warning }
+This section is not possible within the workshop environment.Below steps are explained on how to share a custom data product from SAP Datasphere to SAP Databricks
+
+1. In the side navigation area, go to Data Sharing Cockpit > My Data Porducts
+
 <p>
   <img
     src="{{ site.baseurl }}/images/custom_data_product_1.png"
@@ -17,7 +22,7 @@ nav_order: 3
   <img src="{{ site.baseurl }}/images/custom_data_product_1.png" style="max-width:90vw;">
 </dialog>
 
-
+2. Search for "Sales Order Fact" > Add a description > Save changes
 <p>
   <img
     src="{{ site.baseurl }}/images/custom_data_product_2.png"
@@ -30,3 +35,15 @@ nav_order: 3
 <dialog id="img2" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/custom_data_product_2.png" style="max-width:90vw;">
 </dialog>
+
+3. Go to ‘Catalog & Marketplace’ from the navigation bar.
+
+4. Select ‘Marketplace Data Products’, search for your data product, and open it.
+
+5. In the ‘Details’ section, review the APIs and select ‘Share’ to share the SAP Data Product with SAP Databricks Unity Catalog.
+
+6. In ‘Manage Share Access’, enter the name of the ‘Delta Share’ that appears in the target system.  
+   Leave ‘Workspace’ as the default workspace and select ‘Share’.
+
+7. The data product is now shared with ‘SAP Databricks’.
+
