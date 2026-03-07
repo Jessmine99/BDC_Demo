@@ -49,7 +49,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 ### Create SFDC Dimension View
 
 {: .warning }
-*Originally, we would have consumed the data product after publishing it, which would have created the remote table automatically in Datasphere. Since consumption is not possible, we manually create a table in Datasphere to replicate the same structure and workflow*
+*Originally, we would have consumed the data product after publishing it, which would have created the remote table automatically in Datasphere. Since consumption is not possible within the workshop environment, we manually create a table in Datasphere to replicate the same structure and workflow*
 
 ### Create SFDC Table
 - In `Data Builder`, create a new table  
