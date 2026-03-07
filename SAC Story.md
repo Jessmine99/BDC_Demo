@@ -1,10 +1,10 @@
 ---
-title: Story
+title: SAC Story
 layout: default
-nav_order: 5
+nav_order: 8
 ---
 
-# Story
+# SAC Story
 
 Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next to your username icon choose `SAP Analytics Cloud`
 
@@ -65,6 +65,37 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Deselect 2024, then select `Apply Selections` and see changes in Time Series chart  
 - Deselect 3975 sales org, then select `Apply Selections` and see changes in the table  
 - You will notice that all the widgets are updated, except for the `Global Gross Sales` KPI  
+
+### Create page 2 
+- Toolbar --> `View` --> `left side panel` --> `Outline` --> `Add second page`  
+- Go to `page 2` and click on `Assets`  
+
+### Column Chart: Revenue by Account Type & Industry
+- From `widgets`, drag `Chart` in the storyboard page 2  
+- Choose data source and the analytic model you created  
+- From `Builder panel` --> Chart orientation: `Vertical`  
+- Measures: `ORDER_AMOUNT_EURO`  
+- Dimensions: `Industry`  
+- Color: `accounttype`  
+- Double click on the chart title and change it to: `Revenue per account type & industry`  
+
+### Heatmap: High Value Products per Account Type & QualityScore
+- From `widgets`, drag `Chart` in the storyboard  
+- Choose data source and the analytic model you created  
+- From Builder panel --> Selected chart: `Heatmap`  
+- Color: `High value products`  
+- Dimensions: `qualityscore` (X-axis), `accounttype` (Y-axis)  
+- Change title to: `Number of high value products per accounttype, qualityscore`  
+
+#### Interpretation
+- Color intensity → Magnitude  
+  - Darker / Blue = higher value  
+  - Lighter / Pink = lower value  
+
+**Examples:**  
+- Monitoring – Quality Score 7 → 333 → Monitoring customers with quality score 7 generate many high-value products  
+- Strategic – Quality Score 5 → 251 → Strategic customers with medium quality score generate strong high-value output  
+- Target – Quality Score 1 → 336 → Low-quality Target accounts produce high-value products → growth opportunity or risk 
 
 ### Just Ask
 - Launch Just Ask: Click on the light bulb icon from the toolbar (top right)  

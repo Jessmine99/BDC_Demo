@@ -1,10 +1,10 @@
 ---
-title: Data acquisition and Data Ingestion
+title: Ingest S/4HANA CSV Files into SAP Datasphere
 layout: default
 nav_order: 2
 ---
 
-# Data acquisition and Data Ingestion
+# Ingest S/4HANA CSV Files into SAP Datasphere
 
 ## Log on to Datasphere
 Use credentials that are already given to you

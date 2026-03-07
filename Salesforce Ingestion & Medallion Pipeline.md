@@ -1,10 +1,10 @@
 ---
-title: SAP Databricks
+title: Salesforce Ingestion & Medallion Pipeline
 layout: default
-nav_order: 6
+nav_order: 5
 ---
 
-# SAP Databricks
+# Salesforce Ingestion & Medallion Pipeline
 
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
 

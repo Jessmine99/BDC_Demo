@@ -1,10 +1,10 @@
 ---
-title: Analytic Modeling
+title: Harmonize Analytical model
 layout: default
-nav_order: 4
+nav_order: 7
 ---
 
-# Analytic Modeling
+# Analytical Model
 
 ### Create Sales Order Analytic Model
 
@@ -31,6 +31,21 @@ nav_order: 4
    - `LONGITUDE`
    - `CUSTOMER_EFFECTIVE_DATE`
    - `CUSTOMER_CREATED_DATE`
+   - `Id`
+   - `ERP_Customer_Code`
+   - `Name`
+   - `OwnerId`
+   - `Visiting_Address_del__PostalCode__s`
+   - `Visiting_Address_del__Street__s`
+   - `Phone`
+   - `Fax`
+   - `Tax_ID`
+   - `Website`
+   - `Web_Email`
+   - `createddate`
+   - `LastModifiedDate`
+   - `isdeleted`
+   - `ownername`
 
 ### Create Calculated Measures
 

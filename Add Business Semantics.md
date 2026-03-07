@@ -1,10 +1,10 @@
 ---
-title: Data Modeling
+title: Add Business Semantics
 layout: default
 nav_order: 3
 ---
 
-# Data Modeling
+# Add Business Semantics
 
 ### Create Material Dimension View
 
@@ -40,9 +40,30 @@ nav_order: 3
 
 ---
 
-### Create Distribution Channel Dimension
+### Create Distribution Channel Dimension View
 
 Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimension business/technical name to `Distribution Channel DIM`
+
+---
+
+### Create SFDC Dimension View
+
+{: .warning }
+*Originally, we would have consumed the data product after publishing it, which would have created the remote table automatically in Datasphere. Since consumption is not possible, we manually create a table in Datasphere to replicate the same structure and workflow*
+
+### Create SFDC Table
+- In `Data Builder`, create a new table  
+- Enter Business Name / Technical Name as `SFDC`  
+- Add required columns and define data types  
+- Mark `Id` as key attribute  
+- Click Save and confirm the business/technical name  
+- Click Deploy to activate the table  
+- Upload `EU_Accounts.csv` file. [#Follow data ingestion steps](#import-csv-files-into-the-local-tables)
+
+## Data Modeling
+### Create SFDC View
+- Follow steps [#Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
+- Rename dimension Business/Technical Name to `SFDC_DIM`  
 
 ---
 
@@ -65,9 +86,21 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 
 7️⃣ Click the `Projection operator` next to the Left Join. Exclude the `DISTRIBUTION_CHANNEL` column that is set as a key using the (...) menu. If the **non-key** `DISTRIBUTION_CHANNEL` column is excluded, click Restore so that **only one** business key remains.
 
-8️⃣ Click Save and Deploy the view.
+8️⃣ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` node until the option **Join** or **Union** appears → Select **Join**.
 
-9️⃣ Select the output node, open `Data Viewer` to preview the data, then go to `Data Persistence` in the Properties Panel and click `Start Data Persistence`.
+   In the Properties Panel, choose **Left Join**.  
+   Ensure the columns `ERP_Customer_Code` and `Customer Number` are linked/mapped.
+
+   `Customer_DIM` will now contain **two duplicated columns** due to the join.  
+   Click the **Projection** operator (next to the Left Join operator).
+
+   Exclude the `ERP_Customer_Code` column (click `...` next to the attribute).  
+   Also exclude the `Id` column — a dimension should have **one business key**.
+
+9️⃣ Click **Save and Deploy** the view.
+
+🔟 Select the **Output Node**, open **Data Viewer** to preview the data.  
+   Then go to **Data Persistence** in the Properties Panel and click **Start Data Persistence**.
 
 ---
 
