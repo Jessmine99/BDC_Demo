@@ -95,7 +95,10 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
    Click the **Projection** operator (next to the Left Join operator).
 
    Exclude the `ERP_Customer_Code` column (click `...` next to the attribute).  
-   Also exclude the `Id` column — a dimension should have **one business key**.
+   Also exclude the `Id` column 
+   
+   {: .important }
+   A dimension should have **one business key**.
 
 9️⃣ Click **Save and Deploy** the view.
 

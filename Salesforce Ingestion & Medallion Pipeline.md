@@ -35,7 +35,8 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 - Log in to SAP Datasphere  
 - Go to `Catalog & Marketplace` and in the search bar type your `share_name`  
 
-*It might take a few minutes for the data product to appear*  
+{: .note }
+It might take a few minutes for the data product to appear 
 
 ## Install Data Product
 {: .warning }

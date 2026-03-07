@@ -119,4 +119,5 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Click on `Data Analyzer` (in the navigation area) → Select `From an Existing Model` → Follow the same steps as before and choose the `Sales Order Analytic Model`  
 - Explore the available dimensions and attributes to analyze the data  
 
-*The tool is similar to the Analytic Model Preview tool of SAP Datasphere in terms of functionality and handling*
+{: .note }
+The tool is similar to the Analytic Model Preview tool of SAP Datasphere in terms of functionality and handling
