@@ -86,9 +86,7 @@ Add the following columns:
 ## Data Ingestion
 
 {: .note }
-
-### Download the required CSV files from the IBM Box folder:
-
+Download the required CSV files from the IBM Box folder:
 [IBM Box – Source CSV Files](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
 
 ### Import csv files into the local tables 
