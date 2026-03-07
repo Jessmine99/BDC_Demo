@@ -5,21 +5,28 @@ nav_order: 3
 ---
 
 <p>
-  <a href="{{ site.baseurl }}/images/custom_data_product_1.png">
-    <img
-      src="{{ site.baseurl }}/images/custom_data_product_1.png"
-      alt="Data Product 1"
-      style="width: 180px !important; max-width: 180px !important; height: auto !important;"
-    >
-  </a>
+  <img
+    src="{{ site.baseurl }}/images/custom_data_product_1.png"
+    alt="Data Product 1"
+    style="width:180px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
+  >
 </p>
 
+<dialog id="img1">
+  <img src="{{ site.baseurl }}/images/custom_data_product_1.png" style="max-width:90vw;">
+</dialog>
+
+
 <p>
-  <a href="{{ site.baseurl }}/images/custom_data_product_2.png">
-    <img
-      src="{{ site.baseurl }}/images/custom_data_product_2.png"
-      alt="Data Product 2"
-      style="width: 400px !important; max-width: 400px !important; height: auto !important;"
-    >
-  </a>
+  <img
+    src="{{ site.baseurl }}/images/custom_data_product_2.png"
+    alt="Data Product 2"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img2').showModal()"
+  >
 </p>
+
+<dialog id="img2">
+  <img src="{{ site.baseurl }}/images/custom_data_product_2.png" style="max-width:90vw;">
+</dialog>
