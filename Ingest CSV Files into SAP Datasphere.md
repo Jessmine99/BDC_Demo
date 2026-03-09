@@ -47,16 +47,16 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 <p>
   <img
     src="{{ site.baseurl }}/images/sales-attributes-1.png"
-    alt="Medallion architecture"
-    style="width:600px;"
+    alt="sales-attributes"
+    style="width:500px;"
   >
 </p>
 
 <p>
   <img
     src="{{ site.baseurl }}/images/sales-attributes-2.png"
-    alt="Medallion architecture"
-    style="width:600px;"
+    alt="sales-attributes"
+    style="width:500px;"
   >
 </p>
 
@@ -75,15 +75,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
   <img
     src="{{ site.baseurl }}/images/customer_attributes.png"
     alt="customer_attributes"
-    style="width:600px;"
-  >
-</p>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/customer_attributes.png"
-    alt="customer_attributes"
-    style="width:600px;"
+    style="width:500px;"
   >
 </p>
 
@@ -102,15 +94,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
   <img
     src="{{ site.baseurl }}/images/material_attributes.png"
     alt="material_attributes"
-    style="width:600px;"
-  >
-</p>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/material_attributes.png"
-    alt="material_attributes"
-    style="width:600px;"
+    style="width:500px;"
   >
 </p>
 
@@ -142,15 +126,7 @@ Add the following columns:
   <img
     src="{{ site.baseurl }}/images/distr_attributes.png"
     alt="material_attributes"
-    style="width:600px;"
-  >
-</p>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/distr_attributes.png"
-    alt="material_attributes"
-    style="width:600px;"
+    style="width:500px;"
   >
 </p>
 
