@@ -224,6 +224,19 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img23" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_join_1.1.png" style="max-width:90vw;">
 </dialog>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_canvas_1.png"
+    alt="ccustomer_dim_customer_dim_canvas_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img24').showModal()"
+  >
+</p>
+
+<dialog id="img24" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_canvas_1.png" style="max-width:90vw;">
+</dialog>
 8️⃣ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` node until the option **Join** or **Union** appears → Select **Join**.
 
    In the Properties Panel, choose **Left Join**.  
@@ -238,6 +251,18 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
    {: .important }
    A dimension should have **one business key**.
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_canvas_2.png"
+    alt="ccustomer_dim_customer_dim_canvas_2"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img25').showModal()"
+  >
+</p>
+
+<dialog id="img25" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_canvas_2.png" style="max-width:90vw;">
+</dialog>
 9️⃣ Click **Save and Deploy** the view.
 
 🔟 Select the **Output Node**, open **Data Viewer** to preview the data.  
