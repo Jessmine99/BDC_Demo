@@ -8,16 +8,29 @@ nav_order: 4
 
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
 
-## Data Ingestion (Bronze Layer - Raw Data)
+## Data Ingestion
 - Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` csv file.  
 - In the catalog, choose `workspace` and for the schema choose `default`  
 - Click on `Create Table`  
 
 ---
 
-## Data Modeling (Silver - Gold Layer)
+## Data Modeling - Medallion pipeline
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
 - Open the notebook and run the code  
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/medallion architecture.png"
+    alt="Medallion architecture"
+    style="width:180px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
+  >
+</p>
+
+<dialog id="img1" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/medallion architecture.png" style="max-width:90vw;">
+</dialog>
 
 ### Bronze Layer – Raw Data
 The Bronze table contains the raw ingested data.This layer stores the original dataset as it was imported from the source system.
