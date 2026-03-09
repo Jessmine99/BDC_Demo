@@ -13,6 +13,18 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 - In the catalog, choose `workspace` and for the schema choose `default`  
 - Click on `Create Table`  
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/upload_data_databricks.png"
+    alt="upload_data_databricks"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img8').showModal()"
+  >
+</p>
+
+<dialog id="img8" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/upload_data_databricks.png" style="max-width:90vw;">
+</dialog>
 ---
 ## Data Modeling - Medallion pipeline
 
@@ -22,6 +34,19 @@ Download the required notebook from the IBM Box folder:
 
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
 - Open the notebook and run the code  
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/import_workbook.png"
+    alt="import_workbook"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img9').showModal()"
+  >
+</p>
+
+<dialog id="img9" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/import_workbook.png" style="max-width:90vw;">
+</dialog>
 
 <p>
   <img
