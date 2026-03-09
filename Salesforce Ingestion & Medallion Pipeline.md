@@ -88,7 +88,33 @@ Using the Gold dataset:
 - Hyperparameters are optimized to find the best clustering configuration
 - The resulting clusters are stored and can be visualized in dashboards  
 - Additional business attributes such as account type, industry, ERP customer code, and customer segment are added to the result table. This allows the clusters to be analyzed and visualized in SAP Analytics Cloud dashboards.
-- This results in an `account_clusters` table 
+- This results in an `account_clusters` table. To view the table go to `catalog` --> `workspace` --> `default` --> `tables` --> `account_clusters` 
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/account_clusters_1.png"
+    alt="account_clusters_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img13').showModal()"
+  >
+</p>
+
+<dialog id="img13" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/account_clusters_1.png" style="max-width:90vw;">
+</dialog>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/account_clusters_2.png"
+    alt="account_clusters_2"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img14').showModal()"
+  >
+</p>
+
+<dialog id="img14" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/account_clusters_2.png" style="max-width:90vw;">
+</dialog>
 
 ## Delta Sharing
 - Catalog --> `workspace` --> `default` schema --> `account_clusters`  
