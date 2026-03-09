@@ -241,7 +241,18 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 
    In the Properties Panel, choose **Left Join**.  
    Ensure the columns `ERP_Customer_Code` and `Customer Number` are linked/mapped.
+   <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_join_2.png"
+    alt="customer_dim_join_2"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img25').showModal()"
+  >
+</p>
 
+<dialog id="img25" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_join_2.png" style="max-width:90vw;">
+</dialog> 
    `Customer_DIM` will now contain **two duplicated columns** due to the join.  
    Click the **Projection** operator (next to the Left Join operator).
 
