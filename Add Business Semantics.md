@@ -288,7 +288,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/sales_order_fact_canvas.png"
     alt="sales_order_fact_canvas"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img26').showModal()"
   >
 </p>
@@ -301,7 +301,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/sales_order_fact_properties.png"
     alt="sales_order_fact_properties"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img27').showModal()"
   >
 </p>
@@ -324,7 +324,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/sales_order_fact_measures.png"
     alt="sales_order_fact_measures"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img28').showModal()"
   >
 </p>
@@ -340,7 +340,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/sales_order_fact_associations.png"
     alt="sales_order_fact_associations"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img29').showModal()"
   >
 </p>
