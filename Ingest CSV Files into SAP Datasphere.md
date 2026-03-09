@@ -46,7 +46,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 <p>
   <img
-    src="{{ site.baseurl }}/images/sales-attributes-1.png"
+    src="{{ site.baseurl }}/images/sales_order_attributes_1.png"
     alt="sales-attributes"
     style="width:500px;"
   >
@@ -54,7 +54,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 <p>
   <img
-    src="{{ site.baseurl }}/images/sales-attributes-2.png"
+    src="{{ site.baseurl }}/images/sales_order_attributes_2.png"
     alt="sales-attributes"
     style="width:500px;"
   >
