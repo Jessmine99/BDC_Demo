@@ -87,11 +87,11 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
     src="{{ site.baseurl }}/images/distr_dim.png"
     alt="distr_dim"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img12').showModal()"
+    onclick="document.getElementById('img13').showModal()"
   >
 </p>
 
-<dialog id="img12" onclick="if(event.target===this)this.close()">
+<dialog id="img13" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/distr_dim.png" style="max-width:90vw;">
 </dialog>
 ---
