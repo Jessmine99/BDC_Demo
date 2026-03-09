@@ -47,18 +47,28 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 <p>
   <img
     src="{{ site.baseurl }}/images/sales_order_attributes_1.png"
-    alt="sales-attributes"
-    style="width:500px;"
+    alt="sales_order_attributes_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img2').showModal()"
   >
 </p>
+
+<dialog id="img2" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_attributes_1.png" style="max-width:90vw;">
+</dialog>
 
 <p>
   <img
     src="{{ site.baseurl }}/images/sales_order_attributes_2.png"
-    alt="sales-attributes"
-    style="width:500px;"
+    alt="sales_order_attributes_2"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img3').showModal()"
   >
 </p>
+
+<dialog id="img3" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_attributes_2.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
 
@@ -75,9 +85,14 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
   <img
     src="{{ site.baseurl }}/images/customer_attributes.png"
     alt="customer_attributes"
-    style="width:500px;"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img4').showModal()"
   >
 </p>
+
+<dialog id="img4" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_attributes.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Mark `CUSTOMER_NUMBER` as the **Key Attribute**.
 
@@ -94,9 +109,14 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
   <img
     src="{{ site.baseurl }}/images/material_attributes.png"
     alt="material_attributes"
-    style="width:500px;"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img5').showModal()"
   >
 </p>
+
+<dialog id="img5" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/material_attributes.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Mark `MATERIAL_ID` as the **Key Attribute**.
 
@@ -127,11 +147,11 @@ Add the following columns:
     src="{{ site.baseurl }}/images/distr_attributes.png"
     alt="Distr"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img1').showModal()"
+    onclick="document.getElementById('img6').showModal()"
   >
 </p>
 
-<dialog id="img1" onclick="if(event.target===this)this.close()">
+<dialog id="img6" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/distr_attributes.png" style="max-width:90vw;">
 </dialog>
 
@@ -150,11 +170,11 @@ Download the required CSV files from the IBM Box folder:
     src="{{ site.baseurl }}/images/toolbar.png"
     alt="Toolbar"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img1').showModal()"
+    onclick="document.getElementById('img7').showModal()"
   >
 </p>
 
-<dialog id="img1" onclick="if(event.target===this)this.close()">
+<dialog id="img7" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/toolbar.png" style="max-width:90vw;">
 </dialog>
 
