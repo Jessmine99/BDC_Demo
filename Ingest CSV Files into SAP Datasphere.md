@@ -24,7 +24,7 @@ Select Repository Explorer in the side navigation area. You should see:
 1 local table of type Relational Dataset
 
 ## Data acquisition
-Open Data Builder on your space. Navigate to Data Builder and select your space.
+Navigate to Data Builder and select your space.
 
 <p>
   <img
@@ -167,7 +167,7 @@ Download the required CSV files from the IBM Box folder:
 
 <p>
   <img
-    src="{{ site.baseurl }}/images/toolbar.png"
+    src="{{ site.baseurl }}/images/upload_icon.png"
     alt="Toolbar"
     style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img7').showModal()"
@@ -175,7 +175,7 @@ Download the required CSV files from the IBM Box folder:
 </p>
 
 <dialog id="img7" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/toolbar.png" style="max-width:90vw;">
+  <img src="{{ site.baseurl }}/images/upload_icon.png" style="max-width:90vw;">
 </dialog>
 
 1️⃣ Go to data builder and select and open each local table(customer, sales order, material). Choose Upload Data from CSV File icon from the toolbar.
