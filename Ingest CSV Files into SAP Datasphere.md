@@ -125,10 +125,15 @@ Add the following columns:
 <p>
   <img
     src="{{ site.baseurl }}/images/distr_attributes.png"
-    alt="material_attributes"
-    style="width:500px;"
+    alt="Distr"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
   >
 </p>
+
+<dialog id="img1" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/distr_attributes.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
 
