@@ -17,7 +17,7 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
   <img
     src="{{ site.baseurl }}/images/upload_data_databricks.png"
     alt="upload_data_databricks"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img8').showModal()"
   >
 </p>
