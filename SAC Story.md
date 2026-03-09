@@ -1,7 +1,7 @@
 ---
-title: 7.SAC Story
+title: 6.SAC Story
 layout: default
-nav_order: 8
+nav_order: 7
 ---
 
 # SAC Story

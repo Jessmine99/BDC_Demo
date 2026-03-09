@@ -1,7 +1,7 @@
 ---
-title: 6.Harmonize Analytical model
+title: 5.Harmonize Analytical model
 layout: default
-nav_order: 7
+nav_order: 6
 ---
 
 # Analytical Model

@@ -14,6 +14,9 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 - Click on `Create Table`  
 
 ---
+{: .note }
+Download the required notebook from the IBM Box folder:
+[IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
 
 ## Data Modeling - Medallion pipeline
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
