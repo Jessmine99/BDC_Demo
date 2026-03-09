@@ -14,11 +14,11 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 - Click on `Create Table`  
 
 ---
+## Data Modeling - Medallion pipeline
 {: .note }
 Download the required notebook from the IBM Box folder:
 [IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
 
-## Data Modeling - Medallion pipeline
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
 - Open the notebook and run the code  
 
@@ -70,6 +70,10 @@ Using the Gold dataset:
 - Share name: `account_clusters(your Username)` --> Recipient: `Business Data Cloud` 
 
 ## Publish Data Product
+{: .note }
+Download the required notebook from the IBM Box folder:
+[IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
+
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> Import `Publish_Data_Product_EU_Accounts` notebook   
 - Open the notebook. From navigation bar on the right --> choose environment `V3`  
 - In code block: `share_name = "account_clusters_yourusername"` **(ensure your username is lowercase)**  
