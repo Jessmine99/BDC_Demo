@@ -15,6 +15,7 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 
 ---
 ## Data Modeling - Medallion pipeline
+
 {: .note }
 Download the required notebook from the IBM Box folder:
 [IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
@@ -70,6 +71,7 @@ Using the Gold dataset:
 - Share name: `account_clusters(your Username)` --> Recipient: `Business Data Cloud` 
 
 ## Publish Data Product
+
 {: .note }
 Download the required notebook from the IBM Box folder:
 [IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
