@@ -48,6 +48,8 @@ Download the required notebook from the IBM Box folder:
   <img src="{{ site.baseurl }}/images/import_workbook.png" style="max-width:90vw;">
 </dialog>
 
+### Bronze Layer – Raw Data
+The Bronze table contains the raw ingested data.This layer stores the original dataset as it was imported from the source system.
 <p>
   <img
     src="{{ site.baseurl }}/images/medallion architecture.png"
@@ -60,10 +62,6 @@ Download the required notebook from the IBM Box folder:
 <dialog id="img1" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/medallion architecture.png" style="max-width:90vw;">
 </dialog>
-
-### Bronze Layer – Raw Data
-The Bronze table contains the raw ingested data.This layer stores the original dataset as it was imported from the source system.
-
 ### Silver Layer – Data Cleaning & Structuring
 In the Silver layer, the data is cleaned and structured:
 - Define the key attribute (`Id`)
