@@ -120,10 +120,10 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 - Mark `Id` as key attribute  
 - Click Save and confirm the business/technical name  
 - Click Deploy to activate the table  
-- Upload `account_clusters.csv` file. [Follow data ingestion steps](#import-csv-files-into-the-local-tables)
+- Upload `account_clusters.csv` file. [Follow data ingestion steps](#Import-csv-files-into-the-local-tables)
 
 ### Create SFDC View
-- Follow steps [Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
+- [Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
  <p>
   <img
