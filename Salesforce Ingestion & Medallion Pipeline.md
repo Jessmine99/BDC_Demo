@@ -10,7 +10,7 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 
 ## Data Ingestion (Bronze Layer - Raw Data)
 - Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` csv file.  
-- In the catalog, choose `hana_cloud_dbx_catalog` and for the schema choose `bronze`  
+- In the catalog, choose `workspace` and for the schema choose `default`  
 - Click on `Create Table`  
 
 ---
@@ -18,17 +18,45 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 ## Data Modeling (Silver - Gold Layer)
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
 - Open the notebook and run the code  
-- A refined table with key attributes and defined data types is created  
+
+### Bronze Layer – Raw Data
+The Bronze table contains the raw ingested data.This layer stores the original dataset as it was imported from the source system.
+
+### Silver Layer – Data Cleaning & Structuring
+In the Silver layer, the data is cleaned and structured:
+- Define the key attribute (`Id`)
+- Set data types for the columns
+- Remove invalid or null records where necessary
+- Prepare the dataset for further processing
+This results in a refined table: `eu_accounts_silver`.
+
+### Gold Layer – Analytical Dataset
+The Gold layer prepares the dataset for analytics and machine learning:
+- Copy the structured data from the Silver table
+- Add additional attributes such as `CustomerSegment`
+- Select the relevant columns required for analysis
+- Handle remaining null values
+This results in a refined table: `eu_accounts_gold`.
+
+### Machine Learning Clustering
+Using the Gold dataset:
+- Relevant features are selected for clustering
+- Categorical columns are transformed into numerical values using One-Hot Encoding
+- A clustering model (Affinity Propagation) is trained
+- Hyperparameters are optimized to find the best clustering configuration
+- The resulting clusters are stored and can be visualized in dashboards  
+- Additional business attributes such as account type, industry, ERP customer code, and customer segment are added to the result table. This allows the clusters to be analyzed and visualized in SAP Analytics Cloud dashboards.
+- This results in an `account_clusters` table 
 
 ## Delta Sharing
-- Catalog --> `hana_cloud_dbx_catalog` --> `gold` schema --> `eu_accounts`  
+- Catalog --> `workspace` --> `default` schema --> `eu_accounts_gold`  
 - Select `Share` on the top right corner --> `Share via Delta Sharing` --> Create a new share with a view  
-- Share name: `EU_Accounts_(your Username)` --> Recipient: `Business Data Cloud` 
+- Share name: `account_clusters(your Username)` --> Recipient: `Business Data Cloud` 
 
 ## Publish Data Product
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> Import `Publish_Data_Product_EU_Accounts` notebook   
 - Open the notebook. From navigation bar on the right --> choose environment `V3`  
-- In code block: `share_name = "eu_accounts_yourusername"` **(ensure your username is lowercase)**  
+- In code block: `share_name = "account_clusters_yourusername"` **(ensure your username is lowercase)**  
 - Run all code blocks  
 
 ### Verify Data Product is Published
