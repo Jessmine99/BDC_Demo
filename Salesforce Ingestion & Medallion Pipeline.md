@@ -51,7 +51,7 @@ The Gold layer prepares the dataset for analytics and machine learning:
 - Handle remaining null values
 This results in a refined table: `eu_accounts_gold`.
 
-### Machine Learning Clustering
+#### Machine Learning Clustering
 Using the Gold dataset:
 - Relevant features are selected for clustering
 - Categorical columns are transformed into numerical values using One-Hot Encoding
