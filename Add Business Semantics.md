@@ -333,6 +333,10 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img src="{{ site.baseurl }}/images/sales_order_fact_measures.png" style="max-width:90vw;">
 </dialog>
 5️⃣ In the `Properties Panel`, scroll to the `Associations` section and click the “+” button to create a new Association.
+
+{: .note }
+At the assocation target box choose the technical name not the business name with the link as it will open a new page.
+
    - Select `Material DIM` as the association target and map `MATERIAL` → `MATERIAL_ID`.
    - Repeat for `Customer DIM` and map `SOLD_TO_CUSTOMER` → `CUSTOMER_NUMBER`.
    - Repeat for `Time Dimension - Day` and map `ORDER_DATE_KEY` → `Date`.
@@ -348,9 +352,6 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img29" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/sales_order_fact_associations.png" style="max-width:90vw;">
 </dialog>
-
- {: .note }
- Choose the technical name not the business name with the link as it will open a new page.
 
 6️⃣ Click Save and Deploy the view.
 
