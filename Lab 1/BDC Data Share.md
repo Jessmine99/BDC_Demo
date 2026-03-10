@@ -1,7 +1,7 @@
 ---
 title: 3.BDC Data Share
 layout: default
-parent: Introduction to lab 1
+parent: Lab 1
 nav_order: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 1.SAP Datasphere ingestion
 layout: default
-parent: Introduction to lab 1
+parent: Lab 1
 nav_order: 1
 ---
 
