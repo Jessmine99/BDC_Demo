@@ -28,7 +28,9 @@ parent: Lab 3
 </dialog>
 
 ### Add Projections
+
 **Hide columns that are not needed for the SAC dashboard.**
+
 4️⃣ Click the `Sales Order Fact` node and in the `Properties Panel` **unselect**:
    - `DOCUMENT_ID`
    - `DOCUMENT_ID_POSITION`
