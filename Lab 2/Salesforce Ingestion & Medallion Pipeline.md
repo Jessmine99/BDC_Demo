@@ -1,7 +1,8 @@
 ---
 title: 4.Salesforce Ingestion & Medallion Pipeline
 layout: default
-nav_order: 5
+parent: Lab 2
+nav_order: 1
 ---
 
 # Salesforce Ingestion & Medallion Pipeline

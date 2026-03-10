@@ -1,7 +1,8 @@
 ---
 title: 5.Data Modeling for Salesforce data
 layout: default
-nav_order: 6
+parent: Lab 2
+nav_order: 2
 ---
 
 # Add Business Semantics to Salesforce data
