@@ -141,6 +141,7 @@ nav_order: 7
 <dialog id="img38" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Invoiced_revenue.png" style="max-width:90vw;">
 </dialog>
+
 ### Define Count Distinct Measure
 
 1️⃣2️⃣ In Measures → `+` → `Count Distinct Measure`:
@@ -159,6 +160,7 @@ nav_order: 7
 <dialog id="img39" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Customer_count.png" style="max-width:90vw;">
 </dialog>
+
 1️⃣3️⃣ Add a `Calculated Measure`:
    - Business Name: `Avg Spend per customer (EUR)`
    - Expression:
@@ -179,13 +181,7 @@ nav_order: 7
   <img src="{{ site.baseurl }}/images/Avg_spend_per_cust.png" style="max-width:90vw;">
 </dialog>
 
-Repeat steps for another calculated measure:
- - Business Name: `Price per unit`
-   - Expression:
-     `ORDER_AMOUNT_EURO / QUANTITY`
-   - Click `Validate`
 ### Define Exception Aggregation Measure
-
 1️⃣4️⃣ Add a `Calculated Measure`:
    - Business Name: `Expensive products`
    - Expression: `CASE WHEN (ORDER_AMOUNT_EURO / QUANTITY) > 900 THEN 1 ELSE 0 END`
