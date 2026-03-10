@@ -31,10 +31,11 @@ nav_order: 2
 - Mark `Id` as key attribute  
 - Click Save and confirm the business/technical name  
 - Click Deploy to activate the table  
-- Upload `account_clusters.csv` file. [Follow data ingestion steps](sap-datasphere-ingestion.md#Import-csv-files-into-the-local-tables)
+- Upload `account_clusters.csv` file.
+If needed, refer to SAP Datasphere Ingestion → Import CSV Files into the Local Tables and follow the same data ingestion steps.
 
 ### Create SFDC View
-- [Data Modeling steps]({{ site.baseurl }}/data-modeling-for-s-4-hana-data/#create-material-dimension-view) using the `SFDC` table  
+- If needed, refer to Data Modeling for S/4HANA Data → Create Material Dimension View and follow the same data modeling steps using the `SFDC` table.
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
  <p>
   <img
