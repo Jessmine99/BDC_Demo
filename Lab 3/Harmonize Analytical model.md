@@ -27,7 +27,8 @@ parent: Lab 3
   <img src="{{ site.baseurl }}/images/Analytic_model_properties.png" style="max-width:90vw;">
 </dialog>
 
-### Add Projection
+### Add Projections
+#### Hide columns that are not needed for the SAC dashboard
 4️⃣ Click the `Sales Order Fact` node and in the `Properties Panel` **unselect**:
    - `DOCUMENT_ID`
    - `DOCUMENT_ID_POSITION`
@@ -79,6 +80,7 @@ parent: Lab 3
 <dialog id="img35" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Customer_Dim_Node.png" style="max-width:90vw;">
 </dialog>
+
 ### Create Calculated Measures
 
 7️⃣ Click the `Fact Sources` node → `Measures` → `+` → `Calculated Measure`.
@@ -94,18 +96,21 @@ parent: Lab 3
 <dialog id="img36" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Fact_Sources_Node.png" style="max-width:90vw;">
 </dialog>
+
+To better understand product pricing, we create a measure that calculates the average price per product.
 8️⃣ Create:
    - Business Name: `Avg Order Price`
    - Expression: `ORDER_AMOUNT_EURO / QUANTITY`
    - Click `Validate`.
 
+To analyze pricing incentives, we create a measure that calculates the percentage discount applied to orders.
 9️⃣ Repeat to create:
    - Business Name: `% Discount`
    - Expression: `DISCOUNT_AMOUNT_DOCUMENT_CURRENCY` / `ORDER_AMOUNT_DOCUMENT_CURRENCY`
    - Click `Validate`.
 
 ### Add Restricted Measures
-
+To analyze regional performance, we create a measure that shows revenue generated from customers in France.
 🔟 In Measures → `+` → `Restricted Measure`, create:
 
    - Business Name: `France revenue`
@@ -124,8 +129,9 @@ parent: Lab 3
 <dialog id="img37" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/France_revenue.png" style="max-width:90vw;">
 </dialog>
-1️⃣1️⃣ Create another `Restricted Measure`:
 
+1️⃣1️⃣ Create another `Restricted Measure`:
+To focus on completed sales, we create a measure that calculates revenue from invoiced orders.
    - Business Name: `Invoice_gross_revenue`
    - Source Measure: `ORDER_AMOUNT_EURO`
    - Expression: `STATUS` = `'7'`
@@ -144,7 +150,7 @@ parent: Lab 3
 </dialog>
 
 ### Define Count Distinct Measure
-
+To calculate the average spend per customer, we first create a measure that counts the number of unique customers.
 1️⃣2️⃣ In Measures → `+` → `Count Distinct Measure`:
    - Business Name: `Customer Count`
    - Dimension: `SOLD_TO_CUSTOMER`
@@ -162,6 +168,7 @@ parent: Lab 3
   <img src="{{ site.baseurl }}/images/Customer_count.png" style="max-width:90vw;">
 </dialog>
 
+Next, we create a measure that calculates the average spending per customer and converts the values to Euros, so customer spending can be compared across different countries.
 1️⃣3️⃣ Add a `Calculated Measure`:
    - Business Name: `Avg Spend per customer (EUR)`
    - Expression:
@@ -183,6 +190,7 @@ parent: Lab 3
 </dialog>
 
 ### Define Exception Aggregation Measure
+To identify premium products, we create a measure that highlights products with a high price per unit.
 1️⃣4️⃣ Add a `Calculated Measure`:
    - Business Name: `Expensive products`
    - Expression: `CASE WHEN (ORDER_AMOUNT_EURO / QUANTITY) > 900 THEN 1 ELSE 0 END`
@@ -191,7 +199,8 @@ parent: Lab 3
  Scroll to `Exception Aggregation` and set:
    - Type: `SUM`
    - Dimension: `MATERIAL (Sales Order Fact)`
-
+   
+To keep the analysis focused on recent sales activity, we add a filter that restricts the data to 2024 and 2025.
 ### Add Filter Variable
 1️⃣5️⃣ In the `Variables` section, add a `Filter Variable`:
    - Dimension: `Year (ORDER_DATE_KEY)`
