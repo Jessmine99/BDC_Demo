@@ -192,3 +192,15 @@ Download the required CSV files from the IBM Box folder:
 3️⃣ Click on Data viewer from the toolbar to verify data.
 
 4️⃣ Click save and then click deploy.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Save_Deploy.png"
+    alt="Save_Deploy"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img30').showModal()"
+  >
+</p>
+
+<dialog id="img30" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Save_Deploy.png" style="max-width:90vw;">
+</dialog>
