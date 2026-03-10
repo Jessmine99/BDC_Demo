@@ -8,7 +8,7 @@ nav_order: 5
 
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
 
-## Data Ingestion
+## SFDC Data Ingestion
 - Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` xlsx file.  
 - In the catalog, choose `workspace` and for the schema choose `default`  
 - Click on `Create Table`  

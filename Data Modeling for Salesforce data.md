@@ -1,8 +1,10 @@
 ---
-title: 5.Add Business Semantics to Salesforce data
+title: 5.Data Modeling for Salesforce data
 layout: default
 nav_order: 6
 ---
+
+# Add Business Semantics to Salesforce data
 
 ### Create SFDC Dimension View
 

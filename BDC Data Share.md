@@ -1,5 +1,5 @@
 ---
-title: 3.Custom Data Product for Databricks
+title: 3.BDC Data Share
 layout: default
 nav_order: 4
 ---

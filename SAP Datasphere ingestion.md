@@ -1,5 +1,5 @@
 ---
-title: 1.Ingest S/4HANA CSV Files into SAP Datasphere
+title: 1.SAP Datasphere ingestion
 layout: default
 nav_order: 2
 ---
