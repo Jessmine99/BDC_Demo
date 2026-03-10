@@ -2,8 +2,8 @@
 title: Introduction
 layout: default
 nav_order: 1
+has_children: true
 ---
-
 #  "Custom" Data Products, Modeling and SAC reporting
 
 End-to-end sales analytics demo using SAP Datasphere, SAP Analytics Cloud and SAP Databricks.  
