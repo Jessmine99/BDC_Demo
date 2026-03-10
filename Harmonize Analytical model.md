@@ -13,19 +13,64 @@ nav_order: 7
 2️⃣ In the pop-up window, keep all measures, attributes, and associated dimensions selected and click `Add`.
 
 3️⃣ In the `Properties Panel`, enter `Sales Order Analytic Model` as the Analytic Model name.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/Analytic_model_properties.png"
+    alt="Analytic_model_properties"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img32').showModal()"
+  >
+</p>
+
+<dialog id="img32" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Analytic_model_properties.png" style="max-width:90vw;">
+</dialog>
 
 ### Add Projection
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/Sales_Order_Fact_Node.png"
+    alt="Sales_Order_Fact_Node"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img33').showModal()"
+  >
+</p>
 
+<dialog id="img33" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Sales_Order_Fact_Node.png" style="max-width:90vw;">
+</dialog>
 4️⃣ Click the `Sales Order Fact` node and in the `Properties Panel` **unselect**:
    - `DOCUMENT_ID`
    - `DOCUMENT_ID_POSITION`
    - `SHIP_TO_CUSTOMER`
    - `TRADE_DESCRIPTION`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Material_Dim_Node.png"
+    alt="Material_Dim_Node"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img34').showModal()"
+  >
+</p>
 
+<dialog id="img34" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Material_Dim_Node.png" style="max-width:90vw;">
+</dialog>
 5️⃣ Click the `Material DIM` node and **unselect**:
    - `BASE_UOM_CODE`
    - `MAXIMUM_PACKAGE_SIZE`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Customer_Dim_Node.png"
+    alt="Customer_Dim_Node"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img35').showModal()"
+  >
+</p>
 
+<dialog id="img35" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Customer_Dim_Node.png" style="max-width:90vw;">
+</dialog>
 6️⃣ Click the `Customer DIM` node and **unselect**:
    - `LATITUDE`
    - `LONGITUDE`
