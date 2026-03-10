@@ -1,7 +1,8 @@
 ---
 title: 3.BDC Data Share
 layout: default
-nav_order: 4
+parent: Introduction
+nav_order: 3
 ---
 
 # Sharing SAP Business Data Cloud Data Products to SAP Databricks
