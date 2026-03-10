@@ -213,3 +213,15 @@ nav_order: 7
 1️⃣6️⃣ Click Save and Deploy.
 
 1️⃣7️⃣ Click `Preview` (top right) to validate the analytic model.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/preview_model.png"
+    alt="preview_model"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img43').showModal()"
+  >
+</p>
+
+<dialog id="img43" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/preview_model.png" style="max-width:90vw;">
+</dialog>
