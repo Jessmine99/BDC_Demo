@@ -28,7 +28,7 @@ parent: Lab 3
 </dialog>
 
 ### Add Projections
-#### Hide columns that are not needed for the SAC dashboard
+**Hide columns that are not needed for the SAC dashboard.**
 4️⃣ Click the `Sales Order Fact` node and in the `Properties Panel` **unselect**:
    - `DOCUMENT_ID`
    - `DOCUMENT_ID_POSITION`
@@ -66,8 +66,6 @@ parent: Lab 3
    - `LONGITUDE`
    - `CUSTOMER_EFFECTIVE_DATE`
    - `CUSTOMER_CREATED_DATE`
-   - `Id`
-   - `ERP_Customer_Code`
 <p>
   <img
     src="{{ site.baseurl }}/images/Customer_Dim_Node.png"
@@ -97,14 +95,14 @@ parent: Lab 3
   <img src="{{ site.baseurl }}/images/Fact_Sources_Node.png" style="max-width:90vw;">
 </dialog>
 
-To better understand product pricing, we create a measure that calculates the average price per product.
+**To better understand product pricing, we create a measure that calculates the average price per product.**
 
 8️⃣ Create:
    - Business Name: `Avg Order Price`
    - Expression: `ORDER_AMOUNT_EURO / QUANTITY`
    - Click `Validate`.
 
-To analyze pricing incentives, we create a measure that calculates the percentage discount applied to orders.
+**To analyze pricing incentives, we create a measure that calculates the percentage discount applied to orders.**
 
 9️⃣ Repeat to create:
    - Business Name: `% Discount`
@@ -112,7 +110,7 @@ To analyze pricing incentives, we create a measure that calculates the percentag
    - Click `Validate`.
 
 ### Add Restricted Measures
-To analyze regional performance, we create a measure that shows revenue generated from customers in France.
+**To analyze regional performance, we create a measure that shows revenue generated from customers in France.**
 
 🔟 In Measures → `+` → `Restricted Measure`, create:
 
@@ -133,7 +131,7 @@ To analyze regional performance, we create a measure that shows revenue generate
   <img src="{{ site.baseurl }}/images/France_revenue.png" style="max-width:90vw;">
 </dialog>
 
-To focus on completed sales, we create a measure that calculates revenue from invoiced orders.
+**To focus on completed sales, we create a measure that calculates revenue from invoiced orders.**
 
 1️⃣1️⃣ Create another `Restricted Measure`:
    - Business Name: `Invoice_gross_revenue`
@@ -154,7 +152,7 @@ To focus on completed sales, we create a measure that calculates revenue from in
 </dialog>
 
 ### Define Count Distinct Measure
-To calculate the average spend per customer, we first create a measure that counts the number of unique customers.
+**To calculate the average spend per customer, we first create a measure that counts the number of unique customers.**
 
 1️⃣2️⃣ In Measures → `+` → `Count Distinct Measure`:
    - Business Name: `Customer Count`
@@ -173,7 +171,7 @@ To calculate the average spend per customer, we first create a measure that coun
   <img src="{{ site.baseurl }}/images/Customer_count.png" style="max-width:90vw;">
 </dialog>
 
-Next, we create a measure that calculates the average spending per customer and converts the values to Euros, so customer spending can be compared across different countries.
+**Next, we create a measure that calculates the average spending per customer and converts the values to Euros, so customer spending can be compared across different countries.**
 
 1️⃣3️⃣ Add a `Calculated Measure`:
    - Business Name: `Avg Spend per customer (EUR)`
@@ -196,7 +194,7 @@ Next, we create a measure that calculates the average spending per customer and 
 </dialog>
 
 ### Define Exception Aggregation Measure
-To identify premium products, we create a measure that highlights products with a high price per unit.
+**To identify premium products, we create a measure that highlights products with a high price per unit.**
 
 1️⃣4️⃣ Add a `Calculated Measure`:
    - Business Name: `Expensive products`
@@ -208,7 +206,7 @@ To identify premium products, we create a measure that highlights products with 
    - Dimension: `MATERIAL (Sales Order Fact)`
 
 ### Add Filter Variable
-To keep the analysis focused on recent sales activity, we add a filter that restricts the data to 2024 and 2025.
+**To keep the analysis focused on recent sales activity, we add a filter that restricts the data to 2024 and 2025.**
 
 1️⃣5️⃣ In the `Variables` section, add a `Filter Variable`:
    - Dimension: `Year (ORDER_DATE_KEY)`

@@ -30,6 +30,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 ### Edit story and add widgets 
 - Open your story in `edit mode` if not already (top right corner)
 
+**To provide a quick overview of sales performance, we create a KPI that shows the total global gross sales for the selected time period.**
 ### Add Gross Sales Numeric Point Chart
 - Select the `+ Create a Numeric Point Chart` placeholder in the Header Lane of the template  
 - Select `Builder` --> Add measure `ORDER_AMOUNT_EURO`  
@@ -38,26 +39,31 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Select the Styling paintbrush within the panel --> Scroll down to `Number Format` --> Scale to `Million` and Scale `Format` to `Thousand, Million, Billion` 
 - Close the panel  
 - Select More Actions (…) on the Numeric Point chart --> More Options -> Show/Hide -> deselect `Primary Value Labels`  
-- Update the chart title: Double click on `ORDER_AMOUNT_EURO` and enter `Global Gross Sales`  
+- Update the chart title: Double click on `ORDER_AMOUNT_EURO` and enter `Global Gross Sales` 
 
+**To understand how sales evolve over time, we create a chart that shows gross sales by order date.**
 ### Add Time Series Chart
 - Select the `+ Create a Time Series chart` placeholder --> Available objects --> Drag `ORDER_AMOUNT_EURO` to Measures, and `ORDER_DATE_KEY` to `Time location`  
 - Click on the `right side panel` icon from the toolbar to view the chart  
 - Click on `1M` in the chart  
 - Double click on `ORDER_AMOUNT_EURO per ORDER_DATE_KEY` title and enter `Gross Sales per Order Date`  
 
+**To explore the data in more detail, we create a table that shows sales performance by customer and sales organization, including revenue and discounts.**
 ### Add tables
 - Select the `+ Create a Table` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
 - Add your column dimensions --> Under `Columns`, select `+ Add Dimension` --> Select `ORDER_DATE_KEY`  
 - Change the measure column --> Select `Set Filters for Measures` --> Select `Invoice gross revenue` and `% Discount`  
 
+**To understand the geographic distribution of sales, we create a map that shows customer locations and sales activity across regions.**
 ### Add Geo Maps
 - Select the `+ Create a Geo Map` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Content layer`, select `Layer Type` --> `Choropleth/Drill`, `Layer Style` --> `Bubble`, `Location Dimension` --> `Customer Location`
 - Close the builder tab and view the map
   
 ### Input control
+
+**To make the dashboard interactive, we add input controls that allow users to filter the data by year and sales organization**
 
 ### Delete two of the four Input Control placeholders
 - Right click on the placeholders and then select `Delete`  
