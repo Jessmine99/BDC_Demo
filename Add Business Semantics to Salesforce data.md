@@ -1,5 +1,5 @@
 ---
-title: 5.Salesforce Ingestion & Medallion Pipeline
+title: 5.Add Business Semantics to Salesforce data
 layout: default
 nav_order: 6
 ---
