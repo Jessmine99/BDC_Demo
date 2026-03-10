@@ -1,7 +1,7 @@
 ---
 title: 2.Data Modeling for S/4 HANA data
 layout: default
-parent: Introduction
+parent: Introduction to lab 1
 nav_order: 2
 ---
 
