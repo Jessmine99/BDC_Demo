@@ -52,8 +52,10 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Click on `1M` in the chart  
 - Double click on `ORDER_AMOUNT_EURO per ORDER_DATE_KEY` title and enter `Gross Sales per Order Date`  
 
-**To explore the data in more detail, we create a table that shows sales performance by customer and sales organization, including revenue and discounts.**
 ### Add tables
+
+**To explore the data in more detail, we create a table that shows sales performance by customer and sales organization, including revenue and discounts.**
+
 - Select the `+ Create a Table` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
 - Add your column dimensions --> Under `Columns`, select `+ Add Dimension` --> Select `ORDER_DATE_KEY`  
