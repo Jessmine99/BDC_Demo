@@ -196,7 +196,7 @@ Download the required CSV files from the IBM Box folder:
   <img
     src="{{ site.baseurl }}/images/Save_Deploy.png"
     alt="Save_Deploy"
-    style="width:400px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img30').showModal()"
   >
 </p>

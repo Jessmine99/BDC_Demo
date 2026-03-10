@@ -254,7 +254,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img src="{{ site.baseurl }}/images/customer_dim_join_2.png" style="max-width:90vw;">
 </dialog> 
    `Customer_DIM` will now contain **two duplicated columns** due to the join.  
-   Click the **Projection** operator (next to the Left Join operator).
+   Click the `Projection operator` next to the Left Join.
 
    Exclude the `ERP_Customer_Code` column (click `...` next to the attribute).  
    Also exclude the `Id` column 
@@ -267,11 +267,11 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
     src="{{ site.baseurl }}/images/customer_dim_canvas_2.png"
     alt="customer_dim_customer_dim_canvas_2"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img25').showModal()"
+    onclick="document.getElementById('img31').showModal()"
   >
 </p>
 
-<dialog id="img25" onclick="if(event.target===this)this.close()">
+<dialog id="img31" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_canvas_2.png" style="max-width:90vw;">
 </dialog>
 9️⃣ Click **Save and Deploy** the view.
