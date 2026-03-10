@@ -1,7 +1,8 @@
 ---
 title: 6.Harmonize Analytical model
 layout: default
-nav_order: 7
+nav_order: 1
+parent: Lab 3
 ---
 
 # Analytical Model

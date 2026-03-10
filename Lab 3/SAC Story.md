@@ -1,7 +1,8 @@
 ---
 title: 7.SAC Story
 layout: default
-nav_order: 8
+nav_order: 2
+parent: Lab 3
 ---
 
 # SAC Story
