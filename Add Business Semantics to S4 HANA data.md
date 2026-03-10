@@ -1,5 +1,5 @@
 ---
-title: 2.Add Business Semantics
+title: 2.Add Business Semantics to S/4 HANA data
 layout: default
 nav_order: 3
 ---
