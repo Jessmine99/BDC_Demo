@@ -98,3 +98,7 @@ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` 
    Then go to **Data Persistence** in the Properties Panel and click **Start Data Persistence**.
 
 ---
+
+{: .note }
+**Modular approach:** If you encounter issues in this section, you can upload the provided table and dimension and continue with the following steps.
+[IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
