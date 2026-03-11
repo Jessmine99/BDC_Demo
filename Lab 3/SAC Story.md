@@ -185,7 +185,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Measures: `Avg Order Price`  
 - Dimensions: `Industry`  
 - Color: `Industry`  
-- Double click on the chart title and change it to: `Average Product Price by Industry`
+- Double click on the chart title and change it to: `Average Product Unit Price by Industry`
 <p>
   <img
     src="{{ site.baseurl }}/images/bar_chart.png"
@@ -231,8 +231,25 @@ Target – New or potential customers that the company is trying to grow.
 Strategic – High-priority customers that are considered very important for the business.
 Monitoring – Existing customers that are stable but require observation to maintain or grow the relationship.
 
-**Which customer segments and industries spend the most on average?**
-(...)
+**How much does a typical customer spend in each country?**
+### Column Chart
+- From `widgets`, drag `Chart` in the storyboard page 2   
+- From `Builder panel` --> Chart orientation: `Horizontal`  
+- Measures: `Avg Spend per customer (EUR)`  
+- Dimensions: `COUNTRY_NAME`  
+- Double click on the chart title and change it to: `Average spend (EUR) for customers within each country`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Horizontal_Chart.png"
+    alt="Horizontal_Chart"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img52').showModal()"
+  >
+</p>
+
+<dialog id="img52" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Horizontal_Chart.png" style="max-width:90vw;">
+</dialog>
 
 **The scatter plot shows customer clusters created by the machine learning model, helping identify groups of customers with similar characteristics.**
 (...)
