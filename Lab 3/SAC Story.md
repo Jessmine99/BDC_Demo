@@ -177,7 +177,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 </dialog>
 **Interpretation**: Medium and Low value customers contribute the largest share of revenue in France. This suggests that a significant part of sales comes from customers that are not necessarily classified as the most valuable, meaning they still play an important role in overall revenue.
 
-**In which industries do customers typically pay more per order?**
+**In which industries are the products sold at the highest average price?**
 
 ### Column Chart
 - From `widgets`, drag `Chart` in the storyboard page 2   
@@ -185,7 +185,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Measures: `Avg Order Price`  
 - Dimensions: `Industry`  
 - Color: `Industry`  
-- Double click on the chart title and change it to: `Average Order Price by Industry`
+- Double click on the chart title and change it to: `Average Product Price by Industry`
 <p>
   <img
     src="{{ site.baseurl }}/images/bar_chart.png"
@@ -198,7 +198,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 <dialog id="img50" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/bar_chart.png" style="max-width:90vw;">
 </dialog>
-**Interpretation**: Across most industries, customers pay roughly similar amounts per order. However, in the healthcare industry, customers tend to pay the highest average order price, which may indicate that products sold in this industry are more specialized or higher value.
+**Interpretation**: Across most industries, the average price per product is relatively similar. However, the healthcare industry shows the highest average order price, suggesting that products sold in this industry may be more specialized or higher value compared to other industries.
 
 **Which types of customers buy the most high-value products?**
 ### Heatmap:
