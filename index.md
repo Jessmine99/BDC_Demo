@@ -63,13 +63,8 @@ The company collects operational data such as **sales orders, customer informati
 
 To address this challenge, the analytics team builds an integrated analytics solution using **SAP Business Data Cloud**.
 
-### Example: Dark color scheme
+### Dark color scheme
 {: .no_toc .text-delta }
-
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
