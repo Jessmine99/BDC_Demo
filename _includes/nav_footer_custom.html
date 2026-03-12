@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const root = document.documentElement;
 
-  function getCurrentTheme() {
+  function getTheme() {
     return root.getAttribute("data-color-theme") || "light";
   }
 
@@ -23,14 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateLabel() {
     btn.textContent =
-      getCurrentTheme() === "dark"
+      getTheme() === "dark"
         ? "Return to the light side"
         : "Preview dark color scheme";
   }
 
   btn.addEventListener("click", function () {
-    const nextTheme = getCurrentTheme() === "dark" ? "light" : "dark";
-    setTheme(nextTheme);
+    setTheme(getTheme() === "dark" ? "light" : "dark");
   });
 
   updateLabel();
