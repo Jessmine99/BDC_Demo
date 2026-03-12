@@ -85,6 +85,10 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 ---
 
-[Lab 1 →](../lab 1.md){: .btn .btn-primary }
+<div style="text-align: right;">
+
+[Lab 1 →](../Lab 1/lab 1.md){: .btn .btn-primary }
+
+</div>
 
 ---
