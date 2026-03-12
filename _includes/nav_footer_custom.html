@@ -7,20 +7,32 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const btn = document.querySelector(".js-toggle-dark-mode");
-  if (!btn || typeof jtd === "undefined") return;
+  if (!btn) return;
 
-  function syncLabel() {
+  const root = document.documentElement;
+
+  function getCurrentTheme() {
+    return root.getAttribute("data-color-theme") || "light";
+  }
+
+  function setTheme(theme) {
+    root.setAttribute("data-color-theme", theme);
+    localStorage.setItem("theme", theme);
+    updateLabel();
+  }
+
+  function updateLabel() {
     btn.textContent =
-      jtd.getTheme() === "dark"
+      getCurrentTheme() === "dark"
         ? "Return to the light side"
         : "Preview dark color scheme";
   }
 
   btn.addEventListener("click", function () {
-    jtd.setTheme(jtd.getTheme() === "dark" ? "light" : "dark");
-    syncLabel();
+    const nextTheme = getCurrentTheme() === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
   });
 
-  syncLabel();
+  updateLabel();
 });
 </script>
