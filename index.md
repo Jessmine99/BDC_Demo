@@ -82,3 +82,9 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
+
+---
+
+[Lab 1 →](../Lab 1/lab 1.md){: .btn .btn-primary }
+
+---

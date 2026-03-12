@@ -282,6 +282,6 @@ The tool is similar to the Analytic Model Preview tool of SAP Datasphere in term
 
 ---
 
-[Insights →](Insights.md){: .btn .btn-primary }
+[Insights →](../Insights.md){: .btn .btn-primary }
 
 ---

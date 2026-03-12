@@ -105,6 +105,6 @@ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` 
 
 ---
 
-[Lab 3 →](lab 3.md){: .btn .btn-primary }
+[Lab 3 →](../Lab 3/lab 3.md){: .btn .btn-primary }
 
 ---
