@@ -14,12 +14,13 @@ Use credentials that are already given to you
 ### Create time dimensions & tables
 
 {: .highlight }
+Re-generating the time tables is optional since you already performed this step yesterday.
 Navigate to space managemenent. Select the edit button on your assigned space, where your username is displayed. Scroll down in the time section where you can generate time data for your space. Click edit on time data. When you update the year range, this will generate time tables with data and dimension views.
 
 ### Preview time dimensions & tables
 
 {: .highlight }
-Select Repository Explorer in the side navigation area. You should see:
+Select Repository Explorer in the side navigation area. Make sure to review objects within your Space (Space name=username).You should see:
 4 views of type Dimension
 3 local tables of type Text
 1 local table of type Relational Dataset
@@ -143,6 +144,7 @@ Add the following columns:
 | LEAD_TIME_DAYS | Integer64 |
 | PAYMENT_TERMS | String (10) |
 
+We will use the Table editor to manually insert 2 lines
 <p>
   <img
     src="{{ site.baseurl }}/images/distr_attributes.png"

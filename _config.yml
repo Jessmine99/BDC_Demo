@@ -13,7 +13,7 @@ heading_anchors: true
 nav_enabled: true
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 #Add link to github page  
 aux_links:

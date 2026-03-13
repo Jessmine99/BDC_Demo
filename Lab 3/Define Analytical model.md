@@ -1,5 +1,5 @@
 ---
-title: 6.Harmonize Analytical model
+title: 6.Define Analytical model
 layout: default
 nav_order: 1
 parent: Lab 3

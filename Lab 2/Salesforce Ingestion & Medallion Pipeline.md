@@ -162,5 +162,5 @@ From the last code block, download the table as a **CSV file**.
 
 ---
 
-[Data Modeling for Salesforce data →](Data Modeling for Salesforce data.md){: .btn .btn-primary }
+[Harmonize Customer Dimension →](Harmonize Customer Dimension.md){: .btn .btn-primary }
 

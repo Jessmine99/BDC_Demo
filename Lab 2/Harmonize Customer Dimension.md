@@ -1,5 +1,5 @@
 ---
-title: 5.Data Modeling for Salesforce data
+title: 5.Harmonize Customer Dimension
 layout: default
 parent: Lab 2
 nav_order: 2
@@ -16,7 +16,7 @@ nav_order: 2
 - In `Data Builder`, create a new table  
 - Enter Business Name / Technical Name as `SFDC`  
 - Add required columns and define data types 
-  <p>
+<p>
   <img
     src="{{ site.baseurl }}/images/SFDC_attributes.png"
     alt="SFDC_attributes"
