@@ -31,7 +31,18 @@ During this exercise you will:
 
 ---
 
-![Architecture overview]({{ site.baseurl }}/images/E2E-scenario.png)
+<p>
+  <img
+    src="{{ site.baseurl }}/images/E2E-scenario.png"
+    alt="E2E-scenario"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img0').showModal()"
+  >
+</p>
+
+<dialog id="img0" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/E2E-scenario.png" style="max-width:90vw;">
+</dialog>
 
 ---
 
@@ -63,7 +74,6 @@ The company collects operational data such as **sales orders, customer informati
 
 To address this challenge, the analytics team builds an integrated analytics solution using **SAP Business Data Cloud**.
 
----
 
 
 
