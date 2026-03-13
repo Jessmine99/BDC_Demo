@@ -14,9 +14,10 @@ nav_enabled: true
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
-  
+
+#Add link to github page  
 aux_links:
-  Edit page on GitHub:
+  BDC Demo on GitHub:
     - https://github.com/Jessmine99/BDC_Demo
 
 gh_edit_link: true
@@ -28,6 +29,7 @@ gh_edit_view_mode: "edit"
 # Show an "On this page" table of contents
 toc_enabled: true
 
+#Callouts
 callouts:
   highlight:
     color: yellow
