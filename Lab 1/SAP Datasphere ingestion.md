@@ -76,9 +76,11 @@ Navigate to Data Builder and select your space.
   <img src="{{ site.baseurl }}/images/sales_order_attributes_2.png" style="max-width:90vw;">
 </dialog>
 
-3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
+3️⃣ Set semantic usage to Fact.
 
-4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
+4️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
+
+5️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
 
 ---
 
@@ -100,9 +102,11 @@ Navigate to Data Builder and select your space.
   <img src="{{ site.baseurl }}/images/customer_attributes.png" style="max-width:90vw;">
 </dialog>
 
-3️⃣ Mark `CUSTOMER_NUMBER` as the **Key Attribute**.
+3️⃣ Set semantic usage to Dimension.
 
-4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
+️4️⃣ Mark `CUSTOMER_NUMBER` as the **Key Attribute**.
+
+5️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
 
 ---
 
@@ -124,9 +128,11 @@ Navigate to Data Builder and select your space.
   <img src="{{ site.baseurl }}/images/material_attributes.png" style="max-width:90vw;">
 </dialog>
 
-3️⃣ Mark `MATERIAL_ID` as the **Key Attribute**.
+3️⃣ Set semantic usage to Dimension.
 
-4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table
+4️⃣ Mark `MATERIAL_ID` as the **Key Attribute**.
+
+5️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table
 
 ---
 
@@ -143,10 +149,7 @@ Add the following columns:
 |-------------|-----------|
 | DISTRIBUTION_CHANNEL | String (2) |
 | DISTRIBUTION_CHANNEL_NAME | String (10) |
-| DELIVERY_CONDITION | String (20) |
-| CREDIT_LIMIT | Integer64 |
-| LEAD_TIME_DAYS | Integer64 |
-| PAYMENT_TERMS | String (10) |
+| LANGUAGE | String (2) |
 
 We will use the Table editor to manually insert 2 lines
 <p>
@@ -162,7 +165,9 @@ We will use the Table editor to manually insert 2 lines
   <img src="{{ site.baseurl }}/images/distr_attributes.png" style="max-width:90vw;">
 </dialog>
 
-3️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
+3️⃣ Set semantic usage to Text.
+
+4️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
 
 ## Data Ingestion
 

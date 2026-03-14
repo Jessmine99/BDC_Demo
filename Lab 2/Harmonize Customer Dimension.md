@@ -92,10 +92,10 @@ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` 
 <dialog id="img31" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_canvas_2.png" style="max-width:90vw;">
 </dialog>
-9️⃣ Click **Save and Deploy** the view.
+- Click **Save and Deploy** the view.
 
-🔟 Select the **Output Node**, open **Data Viewer** to preview the data.  
-   Then go to **Data Persistence** in the Properties Panel and click **Start Data Persistence**.
+- Select the **Output Node**, open **Data Viewer** to preview the data.  
+  Then go to **Data Persistence** in the Properties Panel and click **Start Data Persistence**.
 
 ---
 
