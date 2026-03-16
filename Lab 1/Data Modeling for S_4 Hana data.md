@@ -45,7 +45,7 @@ nav_order: 2
   - `MATERIAL_ID` → `MATERIAL_DESCRIPTION`
   - `MATERIAL_TYPE_CODE` → `MATERIAL_TYPE_DESCRIPTION`
 
-  <p>
+<p>
   <img
     src="{{ site.baseurl }}/images/Material_dim_2.png"
     alt="Material_dim_2"
@@ -58,7 +58,7 @@ nav_order: 2
   <img src="{{ site.baseurl }}/images/Material_dim_2.png" style="max-width:90vw;">
 </dialog>
 
-  <p>
+<p>
   <img
     src="{{ site.baseurl }}/images/Material_dim_3.png"
     alt="Material_dim_3"
@@ -222,7 +222,8 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img src="{{ site.baseurl }}/images/remove_key.png" style="max-width:90vw;">
 </dialog>
 
-  Repeat step 3 and Set `Text/Association` column `DISTRIBUTION_CHANNEL` → `DISTRIBUTION_CHANNEL_NAME`.  
+  Repeat step 3 and Set `Text/Association` column `DISTRIBUTION_CHANNEL` → `DISTRIBUTION_CHANNEL_NAME`.
+  
 
 🔟 Click **Save and Deploy** the view.
 
