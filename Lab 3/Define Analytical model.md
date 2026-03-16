@@ -97,10 +97,10 @@ parent: Lab 3
   <img src="{{ site.baseurl }}/images/Fact_Sources_Node.png" style="max-width:90vw;">
 </dialog>
 
-**To better understand product pricing, we create a measure that calculates the average price per product unit.**
+**To better understand product pricing, we create a measure that calculates the price per product unit.**
 
 8️⃣ Create:
-   - Business Name: `Avg Order Price`
+   - Business Name: `Price per product unit`
    - Expression: `ORDER_AMOUNT_EURO / QUANTITY`
    - Click `Validate`.
 
@@ -108,7 +108,7 @@ parent: Lab 3
 
 9️⃣ Repeat to create:
    - Business Name: `% Discount`
-   - Expression: `DISCOUNT_AMOUNT_DOCUMENT_CURRENCY` / `ORDER_AMOUNT_DOCUMENT_CURRENCY`
+   - Expression: `DISCOUNT_AMOUNT_DOCUMENT_CURRENCY / ORDER_AMOUNT_DOCUMENT_CURRENCY`
    - Click `Validate`.
 
 ### Add Restricted Measures
@@ -136,7 +136,7 @@ parent: Lab 3
 **To focus on completed sales, we create a measure that calculates revenue from invoiced orders.**
 
 1️⃣1️⃣ Create another `Restricted Measure`:
-   - Business Name: `Invoice_gross_revenue`
+   - Business Name: `Invoiced_gross_revenue`
    - Source Measure: `ORDER_AMOUNT_EURO`
    - Expression: `STATUS` = `'7'`
    - Click `Validate`.
@@ -159,53 +159,22 @@ parent: Lab 3
 1️⃣2️⃣ In Measures → `+` → `Count Distinct Measure`:
    - Business Name: `Customer Count`
    - Dimension: `SOLD_TO_CUSTOMER`
-   - Enable `Is Auxiliary`.
-<p>
-  <img
-    src="{{ site.baseurl }}/images/Customer_count.png"
-    alt="Customer_count"
-    style="width:300px; cursor:pointer;"
-    onclick="document.getElementById('img39').showModal()"
-  >
-</p>
-
-<dialog id="img39" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/Customer_count.png" style="max-width:90vw;">
-</dialog>
 
 **Next, we create a measure that calculates the average spending per customer and converts the values to Euros, so customer spending can be compared across different countries.**
 
 1️⃣3️⃣ Add a `Calculated Measure`:
    - Business Name: `Avg Spend per customer (EUR)`
    - Expression:
-     `NET_VALUE_AMOUNT_DOCUMENT_CURRENCY * (ORDER_AMOUNT_EURO / ORDER_AMOUNT_DOCUMENT_CURRENCY) / Customer_Count`
+     `ORDER_AMOUNT_EURO / Customer_Count`
    - Click `Validate`.
-
-*Note: `ORDER_AMOUNT_EURO / ORDER_AMOUNT_DOCUMENT_CURRENCY` represents the exchange rate from document currency to Euro.*
-<p>
-  <img
-    src="{{ site.baseurl }}/images/Avg_spend_per_cust.png"
-    alt="Avg_spend_per_cust"
-    style="width:300px; cursor:pointer;"
-    onclick="document.getElementById('img40').showModal()"
-  >
-</p>
-
-<dialog id="img40" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/Avg_spend_per_cust.png" style="max-width:90vw;">
-</dialog>
 
 ### Define Exception Aggregation Measure
 **To identify premium products, we create a measure that highlights products with a high price per unit.**
 
 1️⃣4️⃣ Add a `Calculated Measure`:
-   - Business Name: `Expensive products`
-   - Expression: `CASE WHEN (ORDER_AMOUNT_EURO / QUANTITY) > 900 THEN 1 ELSE 0 END`
+   - Business Name: `Premium products`
+   - Expression: `CASE WHEN Price_per_product_unit > 900 THEN 1 ELSE 0 END`
    - Click `Validate`.
-
- Scroll to `Exception Aggregation` and set:
-   - Type: `SUM`
-   - Dimension: `MATERIAL (Sales Order Fact)`
 
 ### Add Filter Variable
 **To keep the analysis focused on recent sales activity, we add a filter that restricts the data to 2024 and 2025.**
