@@ -152,13 +152,14 @@ Add the following columns:
 | LANGUAGE | String (2) |
 
 
-3️⃣ Set semantic usage to Text.
+3️⃣ Set semantic usage to **Text**.
 
 4️⃣ Set `DISTRIBUTION_CHANNEL` & `LANGUAGE` as **Key Attributes**
 
 5️⃣ Set semantic type of `DISTRIBUTION_CHANNEL_NAME` to Text & semantic type of `LANGUAGE` to Language
 
 6️⃣ Set Text/Association of attribute `DISTRIBUTION_CHANNEL` to `DISTRIBUTION_CHANNEL_NAME`
+   
    (The semantics will enhance the data model, which we build in the next lessons. For example, instead of the value of `DISTRIBUTION_CHANNEL`, the associated text of `DISTRIBUTION_CHANNEL_NAME` is displayed in the analysis)
 
 <p>
