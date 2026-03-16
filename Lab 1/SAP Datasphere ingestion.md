@@ -148,8 +148,31 @@ Add the following columns:
 | Column Name | Data Type |
 |-------------|-----------|
 | DISTRIBUTION_CHANNEL | String (2) |
-| DISTRIBUTION_CHANNEL_NAME | String (10) |
+| DISTRIBUTION_CHANNEL_NAME | String (20) |
 | LANGUAGE | String (2) |
+
+
+3️⃣ Set semantic usage to Text.
+
+4️⃣ Set `DISTRIBUTION_CHANNEL` & `LANGUAGE` as **Key Attributes**
+
+5️⃣ Set semantic type of `DISTRIBUTION_CHANNEL_NAME` to Text & semantic type of `LANGUAGE` to Language
+
+6️⃣ Set Text/Association of attribute `DISTRIBUTION_CHANNEL` to `DISTRIBUTION_CHANNEL_NAME`
+   (The semantics will enhance the data model, which we build in the next lessons. For example, instead of the value of `DISTRIBUTION_CHANNEL`, the associated text of `DISTRIBUTION_CHANNEL_NAME` is displayed in the analysis)
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/distr_table.png"
+    alt="Distr"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img64').showModal()"
+  >
+</p>
+
+<dialog id="img64" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/distr_table.png" style="max-width:90vw;">
+</dialog>
 
 We will use the Table editor to manually insert 2 lines
 <p>
@@ -164,10 +187,6 @@ We will use the Table editor to manually insert 2 lines
 <dialog id="img6" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/distr_attributes.png" style="max-width:90vw;">
 </dialog>
-
-3️⃣ Set semantic usage to Text.
-
-4️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
 
 ## Data Ingestion
 

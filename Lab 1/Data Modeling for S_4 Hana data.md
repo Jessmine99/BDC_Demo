@@ -81,7 +81,7 @@ nav_order: 2
 
 ### Create Distribution Channel Dimension View
 
-Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimension business/technical name to `Distribution Channel DIM`
+Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimension business/technical name to `DISTR_CHANNEL_DIM`
 
   <p>
   <img
@@ -156,7 +156,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img21" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_hierarchy.png" style="max-width:90vw;">
 </dialog>
-6️⃣ Drag the `Distribution Channel DIM` onto the canvas and hover it onto the calculated "fx" operator until Join appears, then select Join. In the Properties Panel choose Left Join and ensure `DISTRIBUTION_CHANNEL` columns are correctly mapped.
+6️⃣ Drag the `DISTR_CHANNEL_DIM` onto the canvas and hover it onto the calculated "fx" operator until Join appears, then select Join. In the Properties Panel choose Left Join and ensure `DISTRIBUTION_CHANNEL` columns are correctly mapped.
  <p>
   <img
     src="{{ site.baseurl }}/images/customer_dim_join_1.png"
@@ -169,7 +169,33 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img22" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_join_1.png" style="max-width:90vw;">
 </dialog>
-7️⃣ Click the `Projection operator` next to the Left Join. Exclude the `DISTRIBUTION_CHANNEL` column that is set as a key using the (...) menu. If the **non-key** `DISTRIBUTION_CHANNEL` column is excluded, click Restore so that **only one** business key remains.
+️7️⃣ Click on the Left Join operator and choose the filter icon. On the filter properties type the expression: LANGAUGE = 'EN'
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Filter_language_1.png"
+    alt="Filter_language_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img67').showModal()"
+  >
+</p>
+
+<dialog id="img67" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Filter_language_1.png" style="max-width:90vw;">
+</dialog>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Filter_language.png"
+    alt="Filter_language"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img65').showModal()"
+  >
+</p>
+
+<dialog id="img65" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Filter_language.png" style="max-width:90vw;">
+</dialog>
+8️⃣  Click on the filter icon and choose the `Projection operator`. Exclude the `DISTRIBUTION_CHANNEL` column that is set as a key using the (...) menu. If the **non-key** `DISTRIBUTION_CHANNEL` column is excluded, click Restore.
 <p>
   <img
     src="{{ site.baseurl }}/images/customer_dim_join_1.1.png"
@@ -182,23 +208,25 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img23" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_join_1.1.png" style="max-width:90vw;">
 </dialog>
-
+9️⃣ Click on the Customer DIM output node and remove key from LANGUAGE attribute so that the dimension has only one key attribute
 <p>
   <img
-    src="{{ site.baseurl }}/images/customer_dim_canvas_1.png"
-    alt="ccustomer_dim_customer_dim_canvas_1"
+    src="{{ site.baseurl }}/images/remove_key.png"
+    alt="remove_key"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img24').showModal()"
+    onclick="document.getElementById('img66').showModal()"
   >
 </p>
 
-<dialog id="img24" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/customer_dim_canvas_1.png" style="max-width:90vw;">
+<dialog id="img66" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/remove_key.png" style="max-width:90vw;">
 </dialog>
 
-8️⃣Click **Save and Deploy** the view.
+  Repeat step 3 and Set `Text/Association` column `DISTRIBUTION_CHANNEL` → `DISTRIBUTION_CHANNEL_NAME`.  
 
-9️⃣ Select the **Output Node**, open **Data Viewer** to preview the data.  
+🔟 Click **Save and Deploy** the view.
+
+1️⃣1️⃣ Select the **Output Node**, open **Data Viewer** to preview the data.  
    Then go to **Data Persistence** in the Properties Panel and click **Start Data Persistence**.
 
 ---
