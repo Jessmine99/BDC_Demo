@@ -174,11 +174,13 @@ Add the following columns:
   <img src="{{ site.baseurl }}/images/distr_table.png" style="max-width:90vw;">
 </dialog>
 
-We will use the Table editor to manually insert 2 lines
+7️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
+
+8️⃣ We will use the Table editor to manually insert 2 lines
 <p>
   <img
     src="{{ site.baseurl }}/images/distr_attributes.png"
-    alt="Distr"
+    alt="distr_attributes"
     style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img6').showModal()"
   >
@@ -187,6 +189,8 @@ We will use the Table editor to manually insert 2 lines
 <dialog id="img6" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/distr_attributes.png" style="max-width:90vw;">
 </dialog>
+
+9️⃣ Click save.
 
 ## Data Ingestion
 
