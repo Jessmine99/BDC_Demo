@@ -34,7 +34,6 @@ parent: Lab 3
 4️⃣ Click the `Sales Order Fact` node and in the `Properties Panel` **unselect**:
    - `DOCUMENT_ID`
    - `DOCUMENT_ID_POSITION`
-   - `SHIP_TO_CUSTOMER`
    - `TRADE_DESCRIPTION`
  <p>
   <img

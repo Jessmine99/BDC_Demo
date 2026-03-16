@@ -88,6 +88,18 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
 - Add your column dimensions --> Under `Columns`, select `+ Add Dimension` --> Select `ORDER_DATE_KEY`  
 - Change the measure column --> Select `Set Filters for Measures` --> Select `Invoice gross revenue` and `% Discount`  
+<p>
+  <img
+    src="{{ site.baseurl }}/images/table_sac.png"
+    alt="table_sac"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img68').showModal()"
+  >
+</p>
+
+<dialog id="img68" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/table_sac.png" style="max-width:90vw;">
+</dialog>
 
 <p>
   <img
