@@ -177,7 +177,7 @@ Add the following columns:
 
 7️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
 
-8️⃣ We will use the Table editor to manually insert 2 lines
+8️⃣ We will use the Table Editor to manually add four rows: two in English and two in Dutch. This allows us to later filter the view by the desired language.
 <p>
   <img
     src="{{ site.baseurl }}/images/distr_attributes.png"
@@ -244,6 +244,9 @@ Download the required CSV files from the IBM Box folder:
 {: .note }
 **Modular approach:** If you encounter issues in this section, you can upload the provided tables and continue with the following steps.
 <a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
+- Sales Order Fact
+- Material DIM
+- Customer DIM
 
 ---
 
