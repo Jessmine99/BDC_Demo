@@ -6,16 +6,14 @@ nav_order: 5
 
 ## What the Team Discovers
 
-The team first analyzes **sales trends over time** and observes that sales are relatively low at the beginning of January, peak around mid-January, and fluctuate afterward. This suggests that mid-January represents the strongest sales period.
+The team begins by analyzing sales over time and identifies a clear peak in mid-January, marking it as the most critical period for revenue generation. To understand what drives this peak, they compare performance across sales organizations and find noticeable differences, indicating that certain regions or units are contributing more strongly than others.
 
-Next, they compare **sales performance across sales organizations** and find that invoiced revenue differs significantly between them. Since discount levels also vary, this indicates that sales performance is influenced by factors beyond pricing strategies.
+Digging deeper, they explore customer behavior and discover that in France, a significant portion of revenue comes from medium and low value customers. This suggests that sales performance is not solely dependent on top-tier clients, but rather on a broader customer base.
 
-Looking at **customer segments in France**, the team discovers that medium and low value customers contribute the largest share of revenue, showing that these customers still play an important role in overall sales.
+They then examine pricing across industries and find that while most industries maintain similar price levels, the healthcare sector stands out with higher average prices. This indicates that part of the revenue strength may come from selling more specialized products.
 
-When analyzing **average order prices by industry**, they find that most industries have similar product prices, while the healthcare industry shows the highest average order price, likely due to more specialized or higher-value products.
-
-Finally, the team examines **high-value product purchases** using a heatmap. Monitoring accounts with a quality score of 7 purchase the most expensive products, highlighting them as reliable and important customers.
+Finally, when focusing on premium product sales, the team observes that established customers drive most of the revenue, while target customers contribute less. This connects back to earlier findings: strong performance is driven by a combination of reliable existing customers and higher-value products.
 
 ## Conclusion
 
-These insights show that sales performance is influenced by multiple factors, including timing, customer segments, industry characteristics, and customer reliability. The dashboard helps the team identify key customer groups and opportunities to better support sales strategies and drive revenue growth.
+Bringing these insights together, the team concludes that peak sales performance is not driven by a single factor, but by the alignment of several elements: strong-performing sales organizations, a broad and active customer base, and higher-value products concentrated in specific industries. Growth opportunities lie in strengthening underperforming regions and converting target customers into more established, high-value contributors.

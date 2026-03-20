@@ -30,7 +30,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 ### Edit story and add widgets 
 - Open your story in `edit mode` if not already (top right corner)
 
-### Add Gross Sales Numeric Point Chart
+### Add Gross Sales Numeric Point Chart (KPI)
 
 **To provide a quick overview of sales performance, we create a KPI that shows the total global gross sales for the selected time period.**
 
@@ -195,7 +195,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 ### Column Chart
 - From `widgets`, drag `Chart` in the storyboard page 2   
 - From `Builder panel` --> Chart orientation: `Vertical`  
-- Measures: `Avg Order Price`  
+- Measures: `Price per Product Unit`  
 - Dimensions: `Industry`  
 - Color: `Industry`  
 - Double click on the chart title and change it to: `Average Product Unit Price by Industry`

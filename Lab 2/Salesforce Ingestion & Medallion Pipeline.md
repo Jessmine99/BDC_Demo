@@ -7,7 +7,8 @@ nav_order: 1
 
 # Salesforce Ingestion & Medallion Pipeline
 
-Log in to <a href="https://dbc-879ab089-f9dc.cloud.databricks.com/login.html?next_url=%2Feditor%2Fnotebooks%2F3819412181929124%3Fo%3D2434683670143059&tuuid=5e861f2f-8611-47a9-9ce6-7f7b98ad0f38&o=2434683670143059#command/7785447423502916" target="_blank">SAP Databricks</a>.
+
+Log in to <a href="https://dbc-879ab089-f9dc.cloud.databricks.com/login.html?next_url=%2Feditor%2Fnotebooks%2F3819412181929124%3Fo%3D2434683670143059&tuuid=5e861f2f-8611-47a9-9ce6-7f7b98ad0f38&o=2434683670143059#command/7785447423502916" target="_blank">SAP Databricks</a> using your credentials.
 
 {: .note }
 Download the required file EU_Accounts.xlsx from the IBM Box folder:
