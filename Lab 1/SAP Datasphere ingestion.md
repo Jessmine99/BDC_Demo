@@ -241,10 +241,8 @@ Download the required CSV files from the IBM Box folder:
   <img src="{{ site.baseurl }}/images/Save_Deploy.png" style="max-width:90vw;">
 </dialog>
 
-<div class="note">
-
+{: .note }
 **Modular approach:** If you encounter issues in this section, you can upload the provided tables and continue with the following steps.  
-
 <a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">
 IBM Lab - “custom” Data Products, Modeling and SAC reporting
 </a>
@@ -252,8 +250,6 @@ IBM Lab - “custom” Data Products, Modeling and SAC reporting
 - Sales Order Fact
 - Material DIM
 - Customer DIM
-
-</div>
 
 ---
 
