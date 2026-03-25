@@ -123,7 +123,18 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Select the `+ Create a Geo Map` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Content layer`, select `Layer Type` --> `Choropleth/Drill`, `Layer Style` --> `Bubble`, `Location Dimension` --> `Customer Location`
 - Close the builder tab and view the map
-  
+<p>
+  <img
+    src="{{ site.baseurl }}/images/geo_map.png"
+    alt="geo_map"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img90').showModal()"
+  >
+</p>
+
+<dialog id="img90" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/geo_map.png" style="max-width:90vw;">
+</dialog>
 ### Input control
 
 **To make the dashboard interactive, we add input controls that allow users to filter the data by year and sales organization**
