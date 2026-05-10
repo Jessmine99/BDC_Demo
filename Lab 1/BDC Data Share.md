@@ -50,6 +50,23 @@ Leave ‘Workspace’ as the default workspace and select ‘Share’.
 
 7️⃣ The data product is now shared with ‘SAP Databricks’.
 
+Access the guided tour and follow the steps to share SAP Business Data Cloud data products to SAP Databricks. During the guided tour, you will:
+
+- Search the catalog for a data product
+- Share the data product to SAP Databricks
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe
+    src="https://tour-viewer.platform.saleo.io/d12091f4-9842-4db1-8203-91ae4f657e38"
+    title="Saleo Tour"
+    allowfullscreen
+    loading="lazy"
+    style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;">
+  </iframe>
+</div>
+
+> Source: SAP Workbook Partner Academy.
+
 ---
 
 [Lab 2 →](../Lab 2/lab 2.md){: .btn .btn-primary }
