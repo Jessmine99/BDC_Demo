@@ -5,6 +5,18 @@ parent: Lab 1
 nav_order: 1
 ---
 
+# Configure SAP Business Data Cloud in SAP for Me
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe
+    src="https://tour-viewer.platform.saleo.io/babdad09-7a90-464f-817d-5749f413536d"
+    title="Saleo Tour"
+    allowfullscreen
+    loading="lazy"
+    style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;">
+  </iframe>
+</div>
+
 # Ingest S/4HANA CSV Files into SAP Datasphere
 
 ## Log in SAP Datasphere
