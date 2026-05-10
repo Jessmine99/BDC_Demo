@@ -17,6 +17,8 @@ nav_order: 1
   </iframe>
 </div>
 
+> Source: SAP Workbook Partner Academy.  
+
 # Ingest S/4HANA CSV Files into SAP Datasphere
 
 ## Log in SAP Datasphere
