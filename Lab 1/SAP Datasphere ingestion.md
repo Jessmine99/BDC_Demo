@@ -7,15 +7,16 @@ nav_order: 1
 
 # Configure SAP Business Data Cloud in SAP for Me
 
-Access the guided demo and follow the steps in SAP for Me.
-During the guided demo, you will:
+> [!WARNING]
+> This is a guided demo intended for demonstration and training purposes only.  
 
+During the guided demo, you will:
 - Provision SAP Datasphere
 - Provision SAP Analytics Cloud
 - Create Formation and include systems
 - Provision and include SAP Databricks
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; border: 1px solid #d0d7de; border-radius: 8px; overflow: hidden; margin-top: 16px;">
   <iframe
     src="https://tour-viewer.platform.saleo.io/babdad09-7a90-464f-817d-5749f413536d"
     title="Saleo Tour"
