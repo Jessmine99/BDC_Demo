@@ -7,8 +7,8 @@ nav_order: 1
 
 # Configure SAP Business Data Cloud in SAP for Me
 
-> [!WARNING]
-> This is a guided demo intended for demonstration and training purposes only.  
+{: .warning }
+This is a guided demo intended for demonstration and training purposes only.  
 
 During the guided demo, you will:
 - Provision SAP Datasphere

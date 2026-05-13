@@ -11,9 +11,7 @@ You will ingest operational sales data, enrich it with external customer data, m
 
 The final result is a **sales analytics dashboard** that allows users to analyze revenue trends, customer performance, and product activity through charts, tables, and geo maps.
 
-The labs include both hands-on exercises and guided clickable demos.
-
-The clickable demos complement the lab activities by providing additional context where functionality is not available in the shared lab environment.
+The labs include both hands-on exercises and guided clickable demos. The clickable demos complement the lab activities by providing additional context where functionality is not available in the shared lab environment.
 ---
 
 # Objectives
