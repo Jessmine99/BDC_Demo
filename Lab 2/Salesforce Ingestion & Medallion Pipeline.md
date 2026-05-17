@@ -278,6 +278,56 @@ Not possible due to limitations in SAP workshop environment.
   <img src="{{ site.baseurl }}/images/DP10.png" style="max-width:90vw;">
 </dialog>
 
+<div style="text-align:center;">
+  <img id="sliderImage" src="{{ site.baseurl }}/images/DP2.png"
+       style="width:600px; cursor:pointer;"
+       onclick="openModal()">
+
+  <div style="margin-top:10px;">
+    <button onclick="prevImage()">⬅ Prev</button>
+    <button onclick="nextImage()">Next ➜</button>
+  </div>
+</div>
+
+<dialog id="imgModal" onclick="if(event.target===this)this.close()">
+  <img id="modalImg" style="max-width:90vw;">
+</dialog>
+
+<script>
+const images = [
+  "{{ site.baseurl }}/images/DP2.png",
+  "{{ site.baseurl }}/images/DP3.png",
+  "{{ site.baseurl }}/images/DP4.png",
+  "{{ site.baseurl }}/images/DP5.png",
+  "{{ site.baseurl }}/images/DP6.png",
+  "{{ site.baseurl }}/images/DP7.png",
+  "{{ site.baseurl }}/images/DP8.png",
+  "{{ site.baseurl }}/images/DP9.png",
+  "{{ site.baseurl }}/images/DP10.png"
+];
+
+let index = 0;
+
+function updateImage() {
+  document.getElementById("sliderImage").src = images[index];
+}
+
+function nextImage() {
+  index = (index + 1) % images.length;
+  updateImage();
+}
+
+function prevImage() {
+  index = (index - 1 + images.length) % images.length;
+  updateImage();
+}
+
+function openModal() {
+  document.getElementById("modalImg").src = images[index];
+  document.getElementById("imgModal").showModal();
+}
+</script>
+
 Instead, we manually download the table and later use it to create the dimension view in SAP Datasphere.
 Navigate to `Workspace` → `Users` → click on your username → open the `EU_Accounts (Data Modeling)` notebook.  
 From the last code block, download the table as a **CSV file**.
