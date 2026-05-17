@@ -150,10 +150,6 @@ Not possible due to limitations in SAP workshop environment.
 
 <h3 style="text-align:center;">Data Product Installation (SAP Workbook Example)</h3>
 
-<p style="text-align:center;">
-  Below are images of how to install a data product based on the SAP workbook example.
-</p>
-
 <div style="text-align:center;">
   <img id="sliderImage" src="{{ site.baseurl }}/images/DP1.png"
        style="width:600px; cursor:pointer;"
