@@ -148,136 +148,6 @@ It might take a few minutes for the data product to appear
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
 
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP1.png"
-    alt="DP1"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP1').showModal()"
-  >
-</p>
-
-<dialog id="DP1" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP1.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP2.png"
-    alt="DP2"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP2').showModal()"
-  >
-</p>
-
-<dialog id="DP2" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP2.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP3.png"
-    alt="DP3"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP3').showModal()"
-  >
-</p>
-
-<dialog id="DP3" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP3.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP4.png"
-    alt="DP4"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP4').showModal()"
-  >
-</p>
-
-<dialog id="DP4" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP4.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP5.png"
-    alt="DP5"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP5').showModal()"
-  >
-</p>
-
-<dialog id="DP5" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP5.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP6.png"
-    alt="DP6"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP6').showModal()"
-  >
-</p>
-
-<dialog id="DP6" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP6.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP7.png"
-    alt="DP7"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP7').showModal()"
-  >
-</p>
-
-<dialog id="DP7" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP7.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP8.png"
-    alt="DP8"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP8').showModal()"
-  >
-</p>
-
-<dialog id="DP8" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP8.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP9.png"
-    alt="DP9"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP9').showModal()"
-  >
-</p>
-
-<dialog id="DP9" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP9.png" style="max-width:90vw;">
-</dialog>
-
-<p>
-  <img
-    src="{{ site.baseurl }}/images/DP10.png"
-    alt="DP10"
-    style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('DP10').showModal()"
-  >
-</p>
-
-<dialog id="DP10" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/DP10.png" style="max-width:90vw;">
-</dialog>
-
 <div style="text-align:center;">
   <img id="sliderImage" src="{{ site.baseurl }}/images/DP2.png"
        style="width:600px; cursor:pointer;"
@@ -295,6 +165,7 @@ Not possible due to limitations in SAP workshop environment.
 
 <script>
 const images = [
+  "{{ site.baseurl }}/images/DP1.png",
   "{{ site.baseurl }}/images/DP2.png",
   "{{ site.baseurl }}/images/DP3.png",
   "{{ site.baseurl }}/images/DP4.png",
