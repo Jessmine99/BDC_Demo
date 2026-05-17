@@ -148,6 +148,10 @@ It might take a few minutes for the data product to appear
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
 
+<video width="100%" controls>
+  <source src="./Install_data_product.mp4" type="video/mp4">
+</video>
+
 Instead, we manually download the table and later use it to create the dimension view in SAP Datasphere.
 Navigate to `Workspace` → `Users` → click on your username → open the `EU_Accounts (Data Modeling)` notebook.  
 From the last code block, download the table as a **CSV file**.
