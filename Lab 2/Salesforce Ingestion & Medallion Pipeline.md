@@ -148,11 +148,163 @@ It might take a few minutes for the data product to appear
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
 
-ffmpeg -i Install_data_product.mp4 -vcodec h264 -acodec aac Install_data_product_fixed.mp4
+<div id="dp1" align="center">
 
-<video width="100%" controls>
-  <source src="./Install_data_product.mp4" type="video/mp4">
-</video>
+<a href="./DP1.png" target="_blank">
+  <img src="./DP1.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp2">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp2" align="center">
+
+<a href="./DP2.png" target="_blank">
+  <img src="./DP2.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp1">⬅ Previous</a> | <a href="#dp3">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp3" align="center">
+
+<a href="./DP3.png" target="_blank">
+  <img src="./DP3.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp2">⬅ Previous</a> | <a href="#dp4">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp4" align="center">
+
+<a href="./DP4.png" target="_blank">
+  <img src="./DP4.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp3">⬅ Previous</a> | <a href="#dp5">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp5" align="center">
+
+<a href="./DP5.png" target="_blank">
+  <img src="./DP5.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp4">⬅ Previous</a> | <a href="#dp6">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp6" align="center">
+
+<a href="./DP6.png" target="_blank">
+  <img src="./DP6.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp5">⬅ Previous</a> | <a href="#dp7">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp7" align="center">
+
+<a href="./DP7.png" target="_blank">
+  <img src="./DP7.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp6">⬅ Previous</a> | <a href="#dp8">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp8" align="center">
+
+<a href="./DP8.png" target="_blank">
+  <img src="./DP8.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp7">⬅ Previous</a> | <a href="#dp9">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp9" align="center">
+
+<a href="./DP9.png" target="_blank">
+  <img src="./DP9.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp8">⬅ Previous</a> | <a href="#dp10">Next ➜</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
+
+---
+
+<div id="dp10" align="center">
+
+<a href="./DP10.png" target="_blank">
+  <img src="./DP10.png" width="900">
+</a>
+
+<br><br>
+
+<a href="#dp9">⬅ Previous</a>
+
+<p><sub>Click the image to zoom in.</sub></p>
+
+</div>
 
 Instead, we manually download the table and later use it to create the dimension view in SAP Datasphere.
 Navigate to `Workspace` → `Users` → click on your username → open the `EU_Accounts (Data Modeling)` notebook.  
