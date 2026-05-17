@@ -199,48 +199,6 @@ function openModal() {
 }
 </script>
 
-<div style="text-align:center;">
-  <img src="{{ site.baseurl }}/images/DP2.png"
-       id="mainImg"
-       style="width:600px; cursor:pointer;"
-       onclick="openViewer(0)">
-</div>
-
-<dialog id="viewer" onclick="if(event.target===this)this.close()">
-  <div style="text-align:center;">
-    <button onclick="change(-1)">⬅</button>
-    <img id="viewerImg" style="max-width:90vw;">
-    <button onclick="change(1)">➡</button>
-  </div>
-</dialog>
-
-<script>
-const imgs = [
-  "{{ site.baseurl }}/images/DP2.png",
-  "{{ site.baseurl }}/images/DP3.png",
-  "{{ site.baseurl }}/images/DP4.png",
-  "{{ site.baseurl }}/images/DP5.png",
-  "{{ site.baseurl }}/images/DP6.png",
-  "{{ site.baseurl }}/images/DP7.png",
-  "{{ site.baseurl }}/images/DP8.png",
-  "{{ site.baseurl }}/images/DP9.png",
-  "{{ site.baseurl }}/images/DP10.png"
-];
-
-let i = 0;
-
-function openViewer(start) {
-  i = start;
-  document.getElementById("viewerImg").src = imgs[i];
-  document.getElementById("viewer").showModal();
-}
-
-function change(dir) {
-  i = (i + dir + imgs.length) % imgs.length;
-  document.getElementById("viewerImg").src = imgs[i];
-}
-</script>
-
 Instead, we manually download the table and later use it to create the dimension view in SAP Datasphere.
 Navigate to `Workspace` → `Users` → click on your username → open the `EU_Accounts (Data Modeling)` notebook.  
 From the last code block, download the table as a **CSV file**.
