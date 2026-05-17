@@ -148,6 +148,8 @@ It might take a few minutes for the data product to appear
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
 
+ffmpeg -i Install_data_product.mp4 -vcodec h264 -acodec aac Install_data_product_fixed.mp4
+
 <video width="100%" controls>
   <source src="./Install_data_product.mp4" type="video/mp4">
 </video>
